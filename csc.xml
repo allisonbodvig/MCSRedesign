@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<!-- csc.xml - a document that lists the computer courses offered by the school -->
+
+<!DOCTYPE csc_courses SYSTEM "courseList.dtd">
+
+<csc_courses>
+
+<course>
+    <name> Software Engineering </name>
+    <preFix> CSC </preFix>
+    <number> 470 </number>
+    <credits> 3 </credits>
+    <offered> spring </offered>
+    <description> class </description>
+    <preReq> CSC 300 </preReq>
+    <preReq> CSC 400 </preReq>
+    <coReq>  </coReq>
+    <notes>  </notes>
+</course>
+
+
+
+</csc_courses>

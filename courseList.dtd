@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding "utf-8" ?>
+
+<!-- courseList.dtd - a document type definiton for the math.xml and csc.xml 
+documents, which list math and computer courses offered by the schoool -->
+
+<!ELEMENT courseList (course+)>
+<!ELEMENT course (name, preFix, number, credits, offered, description, preReq, coReq, notes)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT preFix (#PCDATA)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT credits (#PCDATA)>
+<!ELEMENT offered (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT preReq (#PCDATA)>
+<!ELEMENT coReq (#PCDATA)>
+<!ELEMENT notes (#PCDATA)>
