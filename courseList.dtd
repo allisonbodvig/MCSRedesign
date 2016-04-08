@@ -14,3 +14,6 @@ documents, which list math and computer courses offered by the schoool -->
 <!ELEMENT preReq (#PCDATA)>
 <!ELEMENT coReq (#PCDATA)>
 <!ELEMENT notes (#PCDATA)>
+
+<!ATTLIST isActive course #REQUIRED>
+<!-- attribute will be used like <course isActive = "yes"> </course> --> 
