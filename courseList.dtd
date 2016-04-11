@@ -16,4 +16,4 @@ documents, which list math and computer courses offered by the schoool -->
 <!ELEMENT notes (#PCDATA)>
 
 <!ATTLIST isActive course #REQUIRED>
-<!-- attribute will be used like <course isActive = "yes"> </course> --> 
+<!-- attribute will be used like this: <course isActive = "yes"> </course> --> 

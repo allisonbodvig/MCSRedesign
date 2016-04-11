@@ -6,19 +6,636 @@
 
 <math_courses>
 
-<course>
-    <name> Software Engineering </name>
-    <preFix> CSC </preFix>
-    <number> 470 </number>
-    <credits> 3 </credits>
-    <offered> spring </offered>
-    <description> class </description>
-    <preReq> CSC 300</preReq>
-    <preReq> CSC 400 </preReq>
-    <coReq>     </coReq>
+<course isActive = "True">
+    <name>  </name>
+    <preFix> MATH </preFix>
+    <number> </number>
+    <credits> </credits>
+    <offered> </offered>
+    <description> 
+
+    </description>
+    <preReq> </preReq>
+    <coReq>  </coReq>
     <notes> </notes>
 </course>
 
+<course isActive = "True">
+    <name> Basic Algebra </name>
+    <preFix> MATH </preFix>
+    <number> 021 </number>
+    <credits> 3 </credits>
+    <offered> Spring, Fall </offered>
+    <description> 
+        This course prepares students for college level mathematics. Topics generally include: basic properties of real numbers, exponents and radicals, rectangular coordinate geometry, solutions to linear and quadratic equations, inequalities, polynomials, and factoring. Students may also be introduced to functions and systems of equations. 
+    </description>
+    <preReq> Appropiate mathematics placement. </preReq>
+    <notes> 
+        This is a remidial level course and no credit will be granted for graduation
+    </notes>
+</course>
 
+<course isActive = "True">
+    <name> Intermediate Algebra </name>
+    <preFix> MATH </preFix>
+    <number> 101 </number>
+    <credits> 3 </credits>
+    <offered> Spring, Fall </offered>
+    <description> 
+        Basic properties of real numbers, linear equations and inequalities, quadratic equations, systems of equations, polynomials and factoring, rational expressions and equations, and radical expressions and equations, and an introduction to functions such as polynomial, exponential and logarithmic functions.
+    </description>
+    <preReq> MATH 021 or appropiate mathematics placement. </preReq>
+    <notes> 
+        May not be used for credit towards baccalaureate degree, but may be used toward the associate degree.  
+    </notes>
+</course>
+
+<course isActive = "True">
+    <name> College Algebra </name>
+    <preFix> MATH </preFix>
+    <number> 102 </number>
+    <credits> 3 </credits>
+    <offered> Spring, Fall </offered>
+    <description> 
+        Equations and inequalities; polynomial functions and graphs, exponents, radicals, binomial theorem, zeros of polynomials; systems of equations; exponential, logarithmic, and inverse functions, applications and graphs. Other topics selected from sequences, series, and complex numbers.
+    </description>
+    <preReq> MATH 101 with minimum grade of "C" </preReq>
+    <preReq> OR appropiate mathematics placement </preReq>
+    <coReq> MATH 102L </coReq>
+    <notes> 
+        May not be used for credit toward an engineering or science degree (except for Interdisciplinary Sciences-Pre-Professional Health Science Specialization; Interdisciplinary Sciences-Science, Technoloy, and Socieity Specialization; chemistry; and associates of arts).
+    </notes>
+</course>
+
+<course isActive = "True">
+    <name> College Algebra Lab </name>
+    <preFix> MATH </preFix>
+    <number> 102L </number>
+    <credits> 1 </credits>
+    <offered> Spring, Fall </offered>
+    <description> 
+        Labratory to accompany MATH 102.
+    </description>
+    <coReq> MATH 102 </coReq>
+</course>
+
+<course isActive = "True">
+    <name> Survey of Computer Science and Mathematics </name>
+    <preFix> MATH </preFix>
+    <number> 110 </number>
+    <credits> 1 </credits>
+    <offered> </offered>
+    <description> 
+        This is an introductory course for incoming freshmen in Computer Science or Mathematics that provides a survey of the major areas in the profession along with ethical standards that are used. When applicable, guest lectures will be arranged to illuminate different areas of study.
+    </description>
+    <preReq> </preReq>
+    <coReq>  </coReq>
+    <notes>
+        This course is cross-listed with CSC 110
+    </notes>
+</course>
+
+<course isActive = "True">
+    <name> Precalculus </name>
+    <preFix> MATH </preFix>
+    <number> 115 </number>
+    <credits> 5 </credits>
+    <offered> </offered>
+    <description>       
+        A preparatory course for the calculus sequence. Topics include: polynomial, rational, exponential, logarithmic and trigonometric functions and their graphs; systems of equations, inequalities and complex numbers.
+    </description>
+    <preReq> MATH 101 with a minimum grade of "C" </preReq>
+    <preReq> OR appropiate mathematics placement. </preReq>
+    <coReq>  </coReq>
+    <notes> 
+        May not be used for credit toward an engineering or science degree (except for Interdisciplinary Sciences-Pre-Professional Health Science Specialization; Interdisciplinary Sciences-Science, Technology, and Socieity Specialization; Chemistry; Associates of Arts).
+    </notes>
+</course>
+
+<course isActive = "True">
+    <name> Trigonometry </name>
+    <preFix> MATH </preFix>
+    <number> 120 </number>
+    <credits> 3 </credits>
+    <offered> </offered>
+    <description>      
+        Topics include: trigonometric functions, equations, and identities; inverse trigonometric functions; exponential and logarithmic functions, and applications of these functions.
+    </description>
+    <preReq> MATH 102 with minimum grade of "C" </preReq>
+    <preReq> OR appropiate mathematics placement </preReq>
+    <coReq>  </coReq>
+    <notes> 
+        May not be used for credit toward an engineering or science degree (except for Applied Biological Sciences, Interdisciplinary Sciences-Pre-Professional Health Science Specialization; Interdisciplinary Sciences-Science, Technology, and Society Specialization; Chemistry; and Associate of Arts).
+    </notes>
+</course>
+
+<course isActive = "True">
+    <name> Calculus I </name>
+    <preFix> MATH </preFix>
+    <number> 123 </number>
+    <credits> 4 </credits>
+    <offered> Spring, Fall </offered>
+    <description> 
+        The study of limits, continuity, derivatives, applications of the derivative, antiderivatives, the definite and indefinite integral, and the fundamental theorem of calculus.
+    </description>
+    <preReq> MATH 115 with a grade of "C".</preReq>
+    <preReq> OR appropiate mathematics placement </preReq>
+    <preReq> OR permission of instructor </preReq>
+    <coReq>  </coReq>
+    <notes>
+        Students who are initially placed into MATH 102 or below must complete MATH 102 and MATH 120 with a minimum grade of “C” before enrolling in MATH 123. Students who are placed in MATH 120 should consult their advisor to determine whether their placement score was sufficiently high to allow concurrent registration in MATH 123.
+    </notes>
+</course>
+
+<course isActive = "True">
+    <name> Calculus II </name>
+    <preFix> MATH </preFix>
+    <number> 125 </number>
+    <credits> 4 </credits>
+    <offered> Spring, Fall </offered>
+    <description> 
+        A continuation of the study of calculus, including the study of sequences, series, polar coordinates, parametric equations, techniques of integration, applications of integration, indeterminate forms, and improper integrals.
+    </description>
+    <preReq> MATH 115 with a minimum grade of "C" </preReq>
+    <preReq> OR MATH 120 with a minimum grade of "C" </preReq>
+    <preReq> OR appropiate score on departmental Trigonometry Placement </preReq>
+    <preReq> AND MATH 123 with a minimum grade of "C" </preReq>
+    <coReq>  </coReq>
+    <notes> </notes>
+</course>
+
+<course isActive = "True">
+    <name> Mining and Management Mathematics I </name>
+    <preFix> MATH </preFix>
+    <number> 205 </number>
+    <credits> 2 </credits>
+    <offered> </offered>
+    <description> 
+        A survey of calculus in higher dimensions that includes an introduction to vectors, vector valued functions, and partial derivatives.
+    </description>
+    <preReq> MATH 125 with a minimum grade of "C" </preReq>
+    <preReq> OR permission of instructor </preReq>
+    <coReq>  </coReq>
+    <notes>
+        This course may not be used for credit toward an engineering or science degree (except for Mining Engineering).
+    </notes>
+</course>
+
+<course isActive = "True">
+    <name> Introduction to Discrete Mathematics </name>
+    <preFix> MATH </preFix>
+    <number> 221 </number>
+    <credits> 2 </credits>
+    <offered> </offered>
+    <description> 
+        The main purpose of this course is to provide background and experience on the structure of proofs. Topics may include: elementary logic; basic set theory; and sequences of summations, functions, matrices, and proof techniques.
+    </description>
+    <preReq> MATH 123 with a minimum grade of "C" </preReq>
+    <preReq> OR permission of instructor </preReq>
+    <coReq>  </coReq>
+    <notes> </notes>
+</course>
+
+<course isActive = "True">
+    <name> Calculus III </name>
+    <preFix> MATH </preFix>
+    <number> 225 </number>
+    <credits> 4 </credits>
+    <offered> Spring, Fall </offered>
+    <description> 
+        A continuation of the study of calculus, including an introduction to vectors, vector calculus, partial derivatives, and multiple integrals.
+    </description>
+    <preReq> MATH 125 with minimum grade of "C".</preReq>
+    <coReq>  </coReq>
+    <notes> </notes>
+</course>
+
+<course isActive = "True">
+    <name> Introduction to Statistics </name>
+    <preFix> MATH </preFix>
+    <number> 281 </number>
+    <credits> 3 </credits>
+    <offered> </offered>
+    <description> 
+        A study of descriptive statistics including graphs, measures of central tendency and variability and an introduction to probability theory, sampling and techniques of statistical inference with an emphasis on statistical applications.
+    </description>
+    <preReq> MATH 102 </preReq>
+    <preReq> OR MATH 115 </preReq>
+    <coReq>  </coReq>
+    <notes> 
+        Individuals may apply for at most 4 credits toward a degree from the following list of courses: MATH 281, IENG 381/MATH 381, MATH 442.
+    </notes>
+</course>
+
+<course isActive = "True">
+    <name> Independent Study </name>
+    <preFix> MATH </preFix>
+    <number> 291 </number>
+    <credits> 1 to 5 </credits>
+    <offered> </offered>
+    <description> 
+        Includes directed study, problems, readings, directed readings, special problems and special projects. Students complete individualized plans of study which include significant one-on-one student-teacher involvement. The faculty member and students negotiate the details of the study plans. Meeting frequency depends on the requirements of the topic.
+    </description>
+    <preReq> Permission of instructor. </preReq>
+    <coReq>  </coReq>
+    <notes> 
+        May be repeated to a total of 5 credits
+    </notes>
+</course>
+
+<course isActive = "True">
+    <name> Topics </name>
+    <preFix> MATH </preFix>
+    <number> 292 </number>
+    <credits> 1 to 5 </credits>
+    <offered> </offered>
+    <description> 
+        Includes current topics, advanced topics and special topics. A course devoted to a particular issue in a specified field. Course content is not wholly included in the regular curriculum. Guest artists or experts may serve as instructors.
+    </description>
+    <preReq> </preReq>
+    <coReq>  </coReq>
+    <notes>
+        May be repeated to a total of 6 credit hours.
+    </notes>
+</course>
+
+<course isActive = "True">
+    <name> Linear Algebra </name>
+    <preFix> MATH </preFix>
+    <number> 315 </number>
+    <credits> 3 </credits>
+    <offered> Spring, Fall </offered>
+    <description> 
+        Course topics include: the theory and applications of systems of linear equations, matrices, determinants, vector spaces, linear transformations and applications.
+    </description>
+    <preReq> MATH 225 </preReq>
+    <preReq> OR permission of instructor. </preReq>
+    <coReq>  </coReq>
+    <notes> </notes>
+</course>
+
+<course isActive = "True">
+    <name> Differential Equations </name>
+    <preFix> MATH </preFix>
+    <number> 321 </number>
+    <credits> 3 </credits>
+    <offered> Spring, Fall </offered>
+    <description>  
+        Selected topics from ordinary differential equations including development and applications of first order, higher order linear and systems of linear equations, general solutions and solutions to initial-value problems using matrices. Additional topics may include Laplace transforms and power series solutions.  In addition to analytical methods this course will also provide an introduction to numerical solution techniques.
+    </description>
+    <preReq> MATH 125 with a minimum grade of "C". </preReq>
+    <coReq>  </coReq>
+    <notes> MATH 225 and MATH 321 may be taken concurrently or in either order.</notes>
+</course>
+
+<course isActive = "True">
+    <name> Linear Optimization </name>
+    <preFix> MATH </preFix>
+    <number> 353 </number>
+    <credits> 3 </credits>
+    <offered> </offered>
+    <description> 
+        Convex sets and functions, linear inequalities and combinatorial problems; topics in linear programming from fundamental theorems of simplex method through sensitivity analysis, duality, transportation and assignment problems.
+    </description>
+    <preReq> MATH 225 or permission of instructor. </preReq>
+    <coReq>  </coReq>
+    <notes> </notes>
+</course>
+
+<course isActive = "True">
+    <name> Introduction to Numerical Analysis </name>
+    <preFix> MATH </preFix>
+    <number> 373 </number>
+    <credits> 3 </credits>
+    <offered> </offered>
+    <description> 
+        This course is an introduction to numerical methods. Topics include elementary discussion of errors, polynomial interpolation, quadrature, non-linear equations, and systems of linear equations. The algorithmic approach and efficient use of the computer will be emphasized.  Additional topics may include: calculation of eigenvalues and eigenvectors, numerical differentiation and integration, numerical solution of differential equations.
+    </description>
+    <preReq> MATH 321 </preReq>
+    <preReq> AND CSC 150/150L </preReq>
+    <preReq> OR CSC 170/170L </preReq>
+    <preReq> OR permission of instructor. </preReq>
+    <coReq>  </coReq>
+    <notes> </notes>
+</course>
+
+<course isActive = "True">
+    <name> Introduction to Probability and Statistics </name>
+    <preFix> MATH </preFix>
+    <number> 381 </number>
+    <credits> 3 </credits>
+    <offered> Spring, Fall </offered>
+    <description> 
+        Introduction to probability theory, discrete and continuous distributions, sampling distributions and the central limit theorem with general principles for statistical inference and applications of random sampling to hypothesis testing, confidence limits, correlation, and regression.
+    </description>
+    <preReq> MATH 125 with a "C" or better. </preReq>
+    <coReq>  </coReq>
+    <notes> 
+        This course is cross listed with IENG 381. Individuals may apply at most 4 credits toward a degree from the following list of courses: MATH 281, IENG 381/MATG 381, MATH 442.
+    </notes>
+</course>
+
+<course isActive = "True">
+    <name> Probability Theory and Statistics II </name>
+    <preFix> MATH </preFix>
+    <number> 382 </number>
+    <credits> 3 </credits>
+    <offered> Spring </offered>
+    <description>       
+        Review of general principles of statistical inference, linear regression and correlation, multiple linear regression, ANOVA, and statistical design of experiments.
+    </description>
+    <preReq> MATH 381/IENG 381 </preReq>
+    <coReq>  </coReq>
+    <notes> This course </notes>
+</course>
+
+<course isActive = "True">
+    <name> Independent Study </name>
+    <preFix> MATH </preFix>
+    <number> 391 </number>
+    <credits> 1 to 5 </credits>
+    <offered> </offered>
+    <description> 
+        Includes directed study, problems, readings, directed readings, special problems, and special projects. Students complete individualized plans of study which include significant one-on-one student-teacher involvement. The faculty member and students negotiate the details of the study plans. Meeting frequency depends on the requirements of the topic.
+    </description>
+    <preReq> Permission of Instructor. </preReq>
+    <coReq>  </coReq>
+    <notes> 
+        May be repeated to a total of 5 credit hours.
+    </notes>
+</course>
+
+<course isActive = "True">
+    <name> Topics </name>
+    <preFix> MATH </preFix>
+    <number> 392 </number>
+    <credits> 1 to 5 </credits>
+    <offered> </offered>
+    <description> 
+        Includes current topics, advanced topics and special topics. A course devoted to a particular issue in a specified field. Course content is not wholly included in the regular curriculum. Guest artists or experts may serve as instructors.
+    </description>
+    <preReq> </preReq>
+    <coReq>  </coReq>
+    <notes> May be repeated to a total of 6 credit hours. </notes>
+</course>
+
+<course isActive = "True">
+    <name> Communicating Mathematics </name>
+    <preFix> MATH </preFix>
+    <number> 402 </number>
+    <credits> 1 </credits>
+    <offered> </offered>
+    <description> 
+        The student will produce a word-processed technical report of research conducted in MATH 498 and given a department colloquium talk summarizing her or his work. Department faculty member(s) will provide guidance in the production of the technical report and in the preparation for the colloquium talk.
+    </description>
+    <preReq> MATH 498 </preReq>
+    <coReq>  </coReq>
+    <notes> </notes>
+</course>
+
+<course isActive = "True">
+    <name> Abstract Algebra </name>
+    <preFix> MATH </preFix>
+    <number> 413 </number>
+    <credits> 3 </credits>
+    <offered> Fall of an odd year. </offered>
+    <description>   
+        Introduction to the theory and applications of algebraic structures including groups, rings, and fields. 
+    </description>
+    <preReq> MATH 225 </preReq>
+    <preReq> AND CSC 251 </preReq>
+    <preReq> OR MATH 225 </preReq>
+    <preReq> AND MATH 221 </preReq>
+    <coReq>  </coReq>
+    <notes> </notes>
+</course>
+
+<course isActive = "True">
+    <name> Complex Analysis </name>
+    <preFix> MATH </preFix>
+    <number> 421 </number>
+    <credits> 3 </credits>
+    <offered> Spring of even year. </offered>
+    <description> 
+        The algebra of complex numbers; complex functions; contour integration and Cauchy integral theorems; Taylor and Laurent series and the residue theorem; the evaluation of real definite integrals; elementary mapping problems.
+    </description>
+    <preReq> MATH 225 </preReq>
+    <coReq>  </coReq>
+    <notes> </notes>
+</course>
+
+<course isActive = "True">
+    <name> Advanced Calculus I </name>
+    <preFix> MATH </preFix>
+    <number> 423 </number>
+    <credits> 4 </credits>
+    <offered> Fall of an odd year. </offered>
+    <description> 
+        A theoretical treatment of calculus that covers: limits; continuity and differentiability of functions of a single variable.
+    </description>
+    <preReq> MATH 225 </preReq>
+    <preReq> AND CSC 251 </preReq>
+    <preReq> OR MATH 225 </preReq>
+    <preReq> AND MATH 221 </preReq>
+    <preReq> OR permission of instructor. </preReq>
+    <coReq>  </coReq>
+    <notes> </notes>
+</course>
+
+<course isActive = "True">
+    <name> Advanced Calculus II </name>
+    <preFix> MATH </preFix>
+    <number> 424 </number>
+    <credits> 4 </credits>
+    <offered> Spring of an even year </offered>
+    <description> 
+       A continuation of MATH 423 that covers calculus of several variables; convergence of sequences and series; integration; and applications. 
+    </description>
+    <preReq> MATH 423 </preReq>
+    <coReq>  </coReq>
+    <notes> </notes>
+</course>
+
+<course isActive = "True">
+    <name> Partial Differential Equations </name>
+    <preFix> MATH </preFix>
+    <number> 432 </number>
+    <credits> 3 </credits>
+    <offered> Fall of an odd year </offered>
+    <description> 
+        Fourier series, partial differential equations, Frobenius series, Bessel functions, and transform methods.
+    </description>
+    <preReq> MATH 225 with minimum grade of "C" </preReq>
+    <preReq> MATH 321 with minimum grade of "C" </preReq>
+    <coReq>  </coReq>
+    <notes> </notes>
+</course>
+
+<course isActive = "True">
+    <name> Data Analysis </name>
+    <preFix> MATH </preFix>
+    <number> 443/543 </number>
+    <credits> 3 </credits>
+    <offered> Spring of an odd year. </offered>
+    <description> 
+        Accessing, validating, processing, extracting, visualizing and presenting data. Exposure to managing data in a relational database management system. Looking for underlying structure in data using data reduction techniques (e.g., multidimensional scaling, principal components analysis) and, more generally, unsupervised learning techniques (e.g., clustering). Prediction using supervised learning techniques such as discriminant analysis, logistic regression and decision trees. Software may include R and some version of SQL. 
+    </description>
+    <preReq> MATH 225 </preReq>
+    <preReq> OR permission of instructor. </preReq>
+    <coReq>  </coReq>
+    <notes> 
+        Students enrolled in MATH 543 will be held to a higer standard than those enrolled in MATH 443. 
+    </notes>
+</course>
+
+<course isActive = "True">
+    <name> Design of Experiments </name>
+    <preFix> MATH </preFix>
+    <number> 447/547 </number>
+    <credits> 3 </credits>
+    <offered> </offered>
+    <description> 
+        Single and multifactor experiments, analysis of variance, factorial designs, the use of multiple regression, and response surface methodology. Topics may include nonparametric and permutation/randomization alternatives to the traditional parametric tests.
+    </description>
+    <preReq> MATH 382/IENG 382 or permission of instructor. </preReq>
+    <coReq>  </coReq>
+    <notes> Students enrolled in MATH 547 will be held to a higher standard than those enrolled in MATH 447. </notes>
+</course>
+
+<course isActive = "True">
+    <name> Math Modeling </name>
+    <preFix> MATH </preFix>
+    <number> 451/551 </number>
+    <credits> 3 </credits>
+    <offered> Spring of an even year </offered>
+    <description> 
+        The primary goal of this course is to present the mathematical formulation and analysis utilized in scientific modeling. Applications from both science and engineering will be covered. The types of models will include deterministic and stochastic models. Topics may include: epidemiology, biomass, elasticity, heat flow, electrical circuits, mechanical vibrations and optimization.
+    </description>
+    <preReq> MATH 321 </preReq>
+    <preReq> OR permission of instructor </preReq>
+    <coReq>  </coReq>
+    <notes> Students enrolled in MATH 551 will be held to a higher standard than those enrolled in MATH 451. </notes>
+</course>
+
+<course isActive = "True">
+    <name> Advanced Studies in Mathematics </name>
+    <preFix> MATH </preFix>
+    <number> 452/552 </number>
+    <credits> 3 </credits>
+    <offered> </offered>
+    <description> 
+        This course is a capstone experience where students will enhance their mathematics background on selected topics. One of the goals of this course is to foster the ability to learn advanced mathematics and also learn to apply the use of technology in the study of mathematics.
+    </description>
+    <preReq> MATH 225 </preReq>
+    <preReq> AND MATH 321 </preReq>
+    <preReq> OR permission of instructor </preReq>
+    <coReq>  </coReq>
+    <notes> Students enrolled in MATH 552 will be help to a higher standard that those enrolled in MATH 452. </notes>
+</course>
+
+<course isActive = "True">
+    <name> Numerical Analysis I </name>
+    <preFix> MATH </preFix>
+    <number> 471 </number>
+    <credits> 3 </credits>
+    <offered> </offered>
+    <description> 
+        Analysis of rounding errors, numerical solutions of nonlinear equations, numerical differentiation, numerical integration, interpolation and approximation, numerical methods for solving linear systems.
+    </description>
+    <preReq> MATH 373 </preReq>
+    <preReq> OR CSC 372 </preReq>
+    <coReq>  </coReq>
+    <notes> </notes>
+</course>
+
+<course isActive = "True">
+    <name> Statistical Quality and Process Control </name>
+    <preFix> MATH </preFix>
+    <number> 486 </number>
+    <credits> 3 </credits>
+    <offered> </offered>
+    <description> 
+        This course covers the development of statistical methods for application to problems in quality and process control. Statistical topics include: basics of processes and variability, statistically controlled processes, variable and attribute control charts, moving averages, individual trend and others, process capability, sampling plans for attributes and variables.
+    </description>
+    <preReq> IENG 381/MATH 381 </preReq>
+    <preReq> OR MATH 442 </preReq>
+    <preReq> OR permission of instructor. </preReq>
+    <coReq>  </coReq>
+    <notes> </notes>
+</course>
+
+<course isActive = "True">
+    <name> Independent Study </name>
+    <preFix> MATH </preFix>
+    <number> 491 </number>
+    <credits> 1 to 3 </credits>
+    <offered> </offered>
+    <description> 
+        Includes directed study, problems, readings, directed readings, special problems and special projects. Students complete individualized plans of study which include significant one-on-one student-teacher involvement. The faculty member and students negotiate the details of the study plans. Meeting frequency depends on the requirements of the topic.
+    </description>
+    <preReq> Permission of Instructor </preReq>
+    <coReq>  </coReq>
+    <notes> May be repeated to a total of 3 credit hours. </notes>
+</course>
+
+<course isActive = "True">
+    <name> Topics </name>
+    <preFix> MATH </preFix>
+    <number> 492 </number>
+    <credits> 1 to 6 </credits>
+    <offered> </offered>
+    <description> 
+        Includes current topics, advanced topics and special topics. A course devoted to a particular issue in a specified field. Course content is not wholly included in the regular curriculum. Guest artists or experts may serve as instructors.
+    </description>
+    <preReq> </preReq>
+    <coReq>  </coReq>
+    <notes> May be reated to a total of 6 credit hours. </notes>
+</course>
+
+<course isActive = "True">
+    <name> Undergraduate Research/Scholarship </name>
+    <preFix> MATH </preFix>
+    <number> 498 </number>
+    <credits> 1 </credits>
+    <offered> </offered>
+    <description> 
+        Includes senior project, and capstone experience. Independent research problems/projects or scholarship activities. The plan of study is negotiated by the faculty member and the student. Contact between the two may be extensive and intensive. Does not include research courses which are theoretical.
+    </description>
+    <preReq> Permission of instrcutor. </preReq>
+    <coReq>  </coReq>
+    <notes> </notes>
+</course>
+
+<course isActive = "True">
+    <name> Independent Study </name>
+    <preFix> MATH </preFix>
+    <number> 691 </number>
+    <credits> 1 to 3 </credits>
+    <offered> </offered>
+    <description> 
+        Includes directed study, problems, readings, directed readings, special problems, and special projects. Students complete individualized plans of study which include significant one-on-one student-teacher involvement. The faculty member and students negotiate the details of the study plans. Meetings depending upon the requirements of the topic.
+    </description>
+    <preReq> Permission of instructor. </preReq>
+    <coReq>  </coReq>
+    <notes> 
+        May be repeated to a total of 6 credit hours.  Students should have obtained permission of an instructor in the Department of Mathematics and Computer Science prior to registering for this course.
+    </notes>
+</course>
+
+<course isActive = "True">
+    <name> Topics </name>
+    <preFix> MATH </preFix>
+    <number> 692 </number>
+    <credits> 1 to 3 </credits>
+    <offered> </offered>
+    <description> 
+        Includes current topics, advanced topics and special topics. A course devoted to a particular issue in a specified field. Course content is not wholly included in the regular curriculum. Guest artists or experts may serve as instructors.
+    </description>
+    <preReq> </preReq>
+    <coReq>  </coReq>
+    <notes>
+        May be repeated to a total of 6 credit hours.
+    </notes>
+</course>
 
 </math_courses>
