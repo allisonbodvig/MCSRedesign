@@ -23,6 +23,7 @@ a.menuItem
 a.menuItem:hover
 {
     color: rgb(179, 163, 105);
+    cursor: pointer;
 }
 
 hr
