@@ -6,6 +6,8 @@ ul.menu
     border-radius: 10px 25px;
     padding: 10px 0px 10px 30px;
     list-style-type: none;
+    float:left;
+    margin: 16px 20px 10px 0px;
 }
 
 .menuTitle
@@ -35,4 +37,6 @@ html
 {
     background-color: rgb(224, 212, 187);
     border-radius: 10px 30px;
+    min-width: 600px;
 }
+
