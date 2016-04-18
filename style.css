@@ -1,3 +1,10 @@
+html
+{
+    background-color: rgb(224, 212, 187);
+    border-radius: 10px 30px;
+    min-width: 600px;
+}
+
 ul.menu
 {
     width: 250px;
@@ -33,10 +40,7 @@ hr
     border-color: rgb(224, 212, 187);
 }
 
-html
+li.dropdown
 {
-    background-color: rgb(224, 212, 187);
-    border-radius: 10px 30px;
-    min-width: 600px;
+    display: none;
 }
-
