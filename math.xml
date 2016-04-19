@@ -7,20 +7,6 @@
 <math_courses>
 
 <course isActive = "True">
-    <name>  </name>
-    <preFix> MATH </preFix>
-    <number> </number>
-    <credits> </credits>
-    <offered> </offered>
-    <description> 
-
-    </description>
-    <preReq> </preReq>
-    <coReq>  </coReq>
-    <notes> </notes>
-</course>
-
-<course isActive = "True">
     <name> Basic Algebra </name>
     <preFix> MATH </preFix>
     <number> 021 </number>
@@ -44,7 +30,8 @@
     <description> 
         Basic properties of real numbers, linear equations and inequalities, quadratic equations, systems of equations, polynomials and factoring, rational expressions and equations, and radical expressions and equations, and an introduction to functions such as polynomial, exponential and logarithmic functions.
     </description>
-    <preReq> MATH 021 or appropiate mathematics placement. </preReq>
+    <preReq> MATH 021 </preReq>
+    <preReq> OR appropiate mathematics placement. </preReq>
     <notes> 
         May not be used for credit towards baccalaureate degree, but may be used toward the associate degree.  
     </notes>
@@ -474,7 +461,24 @@
 <course isActive = "True">
     <name> Data Analysis </name>
     <preFix> MATH </preFix>
-    <number> 443/543 </number>
+    <number> 443 </number>
+    <credits> 3 </credits>
+    <offered> Spring of an odd year. </offered>
+    <description> 
+        Accessing, validating, processing, extracting, visualizing and presenting data. Exposure to managing data in a relational database management system. Looking for underlying structure in data using data reduction techniques (e.g., multidimensional scaling, principal components analysis) and, more generally, unsupervised learning techniques (e.g., clustering). Prediction using supervised learning techniques such as discriminant analysis, logistic regression and decision trees. Software may include R and some version of SQL. 
+    </description>
+    <preReq> MATH 225 </preReq>
+    <preReq> OR permission of instructor. </preReq>
+    <coReq>  </coReq>
+    <notes> 
+        Students enrolled in MATH 543 will be held to a higer standard than those enrolled in MATH 443. 
+    </notes>
+</course>
+
+<course isActive = "True">
+    <name> Data Analysis </name>
+    <preFix> MATH </preFix>
+    <number> 543 </number>
     <credits> 3 </credits>
     <offered> Spring of an odd year. </offered>
     <description> 
@@ -491,7 +495,21 @@
 <course isActive = "True">
     <name> Design of Experiments </name>
     <preFix> MATH </preFix>
-    <number> 447/547 </number>
+    <number> 447 </number>
+    <credits> 3 </credits>
+    <offered> </offered>
+    <description> 
+        Single and multifactor experiments, analysis of variance, factorial designs, the use of multiple regression, and response surface methodology. Topics may include nonparametric and permutation/randomization alternatives to the traditional parametric tests.
+    </description>
+    <preReq> MATH 382/IENG 382 or permission of instructor. </preReq>
+    <coReq>  </coReq>
+    <notes> Students enrolled in MATH 547 will be held to a higher standard than those enrolled in MATH 447. </notes>
+</course>
+
+<course isActive = "True">
+    <name> Design of Experiments </name>
+    <preFix> MATH </preFix>
+    <number> 547 </number>
     <credits> 3 </credits>
     <offered> </offered>
     <description> 
@@ -505,7 +523,22 @@
 <course isActive = "True">
     <name> Math Modeling </name>
     <preFix> MATH </preFix>
-    <number> 451/551 </number>
+    <number> 451 </number>
+    <credits> 3 </credits>
+    <offered> Spring of an even year </offered>
+    <description> 
+        The primary goal of this course is to present the mathematical formulation and analysis utilized in scientific modeling. Applications from both science and engineering will be covered. The types of models will include deterministic and stochastic models. Topics may include: epidemiology, biomass, elasticity, heat flow, electrical circuits, mechanical vibrations and optimization.
+    </description>
+    <preReq> MATH 321 </preReq>
+    <preReq> OR permission of instructor </preReq>
+    <coReq>  </coReq>
+    <notes> Students enrolled in MATH 551 will be held to a higher standard than those enrolled in MATH 451. </notes>
+</course>
+
+<course isActive = "True">
+    <name> Math Modeling </name>
+    <preFix> MATH </preFix>
+    <number> 451 </number>
     <credits> 3 </credits>
     <offered> Spring of an even year </offered>
     <description> 
@@ -520,7 +553,23 @@
 <course isActive = "True">
     <name> Advanced Studies in Mathematics </name>
     <preFix> MATH </preFix>
-    <number> 452/552 </number>
+    <number> 452 </number>
+    <credits> 3 </credits>
+    <offered> </offered>
+    <description> 
+        This course is a capstone experience where students will enhance their mathematics background on selected topics. One of the goals of this course is to foster the ability to learn advanced mathematics and also learn to apply the use of technology in the study of mathematics.
+    </description>
+    <preReq> MATH 225 </preReq>
+    <preReq> AND MATH 321 </preReq>
+    <preReq> OR permission of instructor </preReq>
+    <coReq>  </coReq>
+    <notes> Students enrolled in MATH 552 will be help to a higher standard that those enrolled in MATH 452. </notes>
+</course>
+
+<course isActive = "True">
+    <name> Advanced Studies in Mathematics </name>
+    <preFix> MATH </preFix>
+    <number> 552 </number>
     <credits> 3 </credits>
     <offered> </offered>
     <description> 
