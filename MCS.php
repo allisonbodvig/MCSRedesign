@@ -15,6 +15,7 @@
   <head>
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
   </head>
   <body>
     <img src="math-csc-logo.png">
@@ -23,20 +24,28 @@
       <ul class="menu">
         <div class="menuTitle">MCS Menu</div>
         <hr class="menuDivider">
-        <li>
-          <a class="menuItem" href="csc-courses.php">Computer Science Courses</a>
+        <li> Courses
+          <ul>
+            <li>
+              <a class="menuItem" href="csc-courses.php">Computer Science Courses</a>
+            </li>
+            <li>
+              <a class="menuItem" href="math-courses.php">Math Courses</a>
+            </li>
+          </ul>
         </li>
-        <li>
-          <a class="menuItem" href="math-courses.php">Math Courses</a>
-        </li>
-        <li>
-          <a class="menuItem" href="empty-redirect.html">Faculty</a>
-        </li>
-        <li>
-          <a class="menuItem" href="empty-redirect.html">Students</a>
-        </li>
-        <li>
-          <a class="menuItem" href="empty-redirect.html">Alumni</a>
+        <li> Web Pages
+          <ul>
+            <li>
+              <a class="menuItem" href="empty-redirect.html">Faculty</a>
+            </li>
+            <li>
+              <a class="menuItem" href="empty-redirect.html">Students</a>
+            </li>
+            <li>
+              <a class="menuItem" href="empty-redirect.html">Alumni</a>
+            </li>
+          </ul>
         </li>
         <li>
           <a class="menuItem" href="empty-redirect.html">Departmental Directory</a>
@@ -59,14 +68,18 @@
         <li>
           <a class="menuItem" href="empty-redirect.html">MCS Research</a>
         </li>
-        <li>
-          <a class="menuItem" href="empty-redirect.html">Student Organizations</a>
-        </li>
-        <li>
-          <a class="menuItem" href="empty-redirect.html">Tutorials and Resources</a>
-        </li>
-        <li>
-          <a class="menuItem" href="empty-redirect.html">Policy, Forms, Coding Standards</a>
+        <li> Resources
+          <ul>
+            <li>
+              <a class="menuItem" href="empty-redirect.html">Student Organizations</a>
+            </li>
+            <li>
+              <a class="menuItem" href="empty-redirect.html">Tutorials and Resources</a>
+            </li>
+            <li>
+              <a class="menuItem" href="empty-redirect.html">Policy, Forms, Coding Standards</a>
+            </li>
+          </ul>
         </li>
         <li>
           <a class="menuItem" href="empty-redirect.html">Submit It!</a>

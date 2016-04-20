@@ -804,19 +804,6 @@
     <preFix>CSC</preFix>
     <number>470</number>
     <credits>3</credits>
-    <offered>spring</offered>
-    <description>class</description>
-    <preReq>CSC 300</preReq>
-    <preReq>CSC 400</preReq>
-    <coReq></coReq>
-    <notes></notes>
-</course>
-
-<course isActive="yes">
-    <name>Software Engineering</name>
-    <preFix>CSC</preFix>
-    <number>470</number>
-    <credits>3</credits>
     <offered></offered>
     <description> An introduction to the software engineering process, including lifecycle phases, problem analysis, specification, project estimation and resource estimation, design, implementation, testing/maintenance, and project management. In particular, software validation and verification as well as scheduling and schedule assessment techniques will be discussed.</description>
     <preReq>CSC 484</preReq>

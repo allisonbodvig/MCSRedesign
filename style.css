@@ -5,42 +5,7 @@ html
     min-width: 600px;
 }
 
-ul.menu
-{
-    width: 250px;
-    background-color: rgb(7, 29, 73);
-    color: white;
-    border-radius: 10px 25px;
-    padding: 10px 0px 10px 30px;
-    list-style-type: none;
-    float:left;
-    margin: 16px 20px 10px 0px;
-}
-
-.menuTitle
-{
-    font-size: 18pt;
-}
-
-a.menuItem
-{
-    color: white;
-    text-decoration: none !important;
-    font-size: 16pt;
-}
-
-a.menuItem:hover
-{
-    color: rgb(179, 163, 105);
-    cursor: pointer;
-}
-
 hr
 {
     border-color: rgb(224, 212, 187);
-}
-
-li.dropdown
-{
-    display: none;
 }
