@@ -41,6 +41,8 @@ function readXML($filename)
 
 		$tmp["credits"] = (string)$class->credits;
 
+        $tmp["offered"] = (string)$class->offered;
+
 		$tmp["description"] = (string)$class->description;
 
         $Preq = array();		
