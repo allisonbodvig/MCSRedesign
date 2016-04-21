@@ -108,7 +108,7 @@
       //read in list of classes
       foreach ($mathDB as $class)
       {
-        echo "<div id=\"course\">" . concatCourse($class) . "</div>\n";
+	    echo "<div id=\"course\">" . concatCourse($class) . "</div>\n";
       }
 
     ?>

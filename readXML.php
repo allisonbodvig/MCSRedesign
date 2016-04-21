@@ -79,10 +79,46 @@ function readXML($filename)
 
 }
 
+function addAnchor ( $str, $preFix )
+{
+    $tag = null;
+    
+    //math page and math req
+    if ( (strpos($str, "MATH") !== false) and ("MATH" == $preFix ) )
+    {
+        //finds course number
+        preg_match('!\d+!', $str, $matches);
+        $tag = "#MATH" . $matches[0];   
+    //csc page and csc req 
+    } else if ( ( strpos( $str, "CSC" ) !== false ) and ("CSC" == $preFix ) )
+    {
+        //finds course number
+        preg_match('!\d+!', $str, $matches);
+        $tag = "#CSC" . $matches[0];
+    //math page and csc req    
+    } else if ( ( strpos( $str, "CSC" ) !== false ) and ("MATH" == $preFix ) )
+    {
+        preg_match('!\d+!', $str, $matches);
+        $tag = "csc-courses.php#CSC" .$matches[0] ;
+        
+    //csc page and math req
+    } else if ( ( strpos( $str, "MATH" ) !== false ) and ("CSC" == $preFix ) )
+    {
+        preg_match('!\d+!', $str, $matches);
+        $tag = "math-courses.php#MATH" .$matches[0] ;
+    }
+    
+    return $tag;
+
+
+}
+
 function concatCourse($class)
 {
-    $info = "<h3>" . $class["preFix"] . " " . $class["number"] . 
-        " - " . $class["name"] . "</h3>" .
+    $id = $class["preFix"] . $class["number"];
+    
+    $info = "<h3><a id=\"" . $id . "\">" . $class["preFix"] . " " . $class["number"] . 
+        " - " . $class["name"] . "</a></h3>" .
       "<b>Credits:</b> " . $class["credits"] . "</br>" ;
           
     if ( ! (empty($class["offered"] ) ) )
@@ -97,10 +133,20 @@ function concatCourse($class)
         $info = $info . "None";
     } else 
     {
-        //preint each preReq
+        //print each preReq
         foreach ($class["preReq"] as $req)
         {
-            $info = $info . $req . " ";
+           $tag = addAnchor($req, $class["preFix"]);
+           
+           //create anchor tag for classes
+           if ( is_null ( $tag ) )
+           {
+                $info = $info . $req . " ";
+           } else
+           {
+                $info = $info . "<a href=\"" . $tag . "\">" . $req . "</a> ";
+           }
+
         }
     }        
 
@@ -115,7 +161,16 @@ function concatCourse($class)
         //print each coReq
         foreach ($class["coReq"] as $req)
         {
-            $info = $info . $req . " ";
+           $tag = addAnchor($req, $class["preFix"]);
+           
+           //create anchor tag for classes
+           if ( is_null ( $tag ) )
+           {
+                $info = $info . $req . " ";
+           } else
+           {
+                $info = $info . "<a href=\"" . $tag . "\">" . $req . "</a> ";
+           }
         }
     }
     
@@ -129,5 +184,7 @@ function concatCourse($class)
     
     return $info;   
 }
+
+//addAnchor("MATH 110");
 
 ?>
