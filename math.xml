@@ -24,7 +24,7 @@
 
 <course isActive = "True">
     <name> Intermediate Algebra </name>
-    <preFix> MATH </preFix>
+    <preFix> MATH </preFix>f
     <number> 101 </number>
     <credits> 3 </credits>
     <offered> Spring, Fall </offered>
@@ -32,7 +32,7 @@
         Basic properties of real numbers, linear equations and inequalities, quadratic equations, systems of equations, polynomials and factoring, rational expressions and equations, and radical expressions and equations, and an introduction to functions such as polynomial, exponential and logarithmic functions.
     </description>
     <preReq> MATH 021 </preReq>
-    <preReq> OR appropiate mathematics placement. </preReq>
+    <preReq> or appropiate mathematics placement. </preReq>
     <coReq></coReq>
     <notes> 
         May not be used for credit towards baccalaureate degree, but may be used toward the associate degree.  
@@ -49,7 +49,7 @@
         Equations and inequalities; polynomial functions and graphs, exponents, radicals, binomial theorem, zeros of polynomials; systems of equations; exponential, logarithmic, and inverse functions, applications and graphs. Other topics selected from sequences, series, and complex numbers.
     </description>
     <preReq> MATH 101 with minimum grade of "C" </preReq>
-    <preReq> OR appropiate mathematics placement </preReq>
+    <preReq> or appropiate mathematics placement </preReq>
     <coReq> MATH 102L </coReq>
     <notes> 
         May not be used for credit toward an engineering or science degree (except for Interdisciplinary Sciences-Pre-Professional Health Science Specialization; Interdisciplinary Sciences-Science, Technoloy, and Socieity Specialization; chemistry; and associates of arts).
@@ -95,7 +95,7 @@
         A preparatory course for the calculus sequence. Topics include: polynomial, rational, exponential, logarithmic and trigonometric functions and their graphs; systems of equations, inequalities and complex numbers.
     </description>
     <preReq> MATH 101 with a minimum grade of "C" </preReq>
-    <preReq> OR appropiate mathematics placement. </preReq>
+    <preReq> or appropiate mathematics placement. </preReq>
     <coReq></coReq>
     <notes> 
         May not be used for credit toward an engineering or science degree (except for Interdisciplinary Sciences-Pre-Professional Health Science Specialization; Interdisciplinary Sciences-Science, Technology, and Socieity Specialization; Chemistry; Associates of Arts).
@@ -112,7 +112,7 @@
         Topics include: trigonometric functions, equations, and identities; inverse trigonometric functions; exponential and logarithmic functions, and applications of these functions.
     </description>
     <preReq> MATH 102 with minimum grade of "C" </preReq>
-    <preReq> OR appropiate mathematics placement </preReq>
+    <preReq> or appropiate mathematics placement </preReq>
     <coReq></coReq>
     <notes> 
         May not be used for credit toward an engineering or science degree (except for Applied Biological Sciences, Interdisciplinary Sciences-Pre-Professional Health Science Specialization; Interdisciplinary Sciences-Science, Technology, and Society Specialization; Chemistry; and Associate of Arts).
@@ -129,8 +129,8 @@
         The study of limits, continuity, derivatives, applications of the derivative, antiderivatives, the definite and indefinite integral, and the fundamental theorem of calculus.
     </description>
     <preReq> MATH 115 with a grade of "C".</preReq>
-    <preReq> OR appropiate mathematics placement </preReq>
-    <preReq> OR permission of instructor </preReq>
+    <preReq> or appropiate mathematics placement </preReq>
+    <preReq> or permission of instructor </preReq>
     <coReq></coReq>
     <notes>
         Students who are initially placed into MATH 102 or below must complete MATH 102 and MATH 120 with a minimum grade of “C” before enrolling in MATH 123. Students who are placed in MATH 120 should consult their advisor to determine whether their placement score was sufficiently high to allow concurrent registration in MATH 123.
@@ -147,9 +147,9 @@
         A continuation of the study of calculus, including the study of sequences, series, polar coordinates, parametric equations, techniques of integration, applications of integration, indeterminate forms, and improper integrals.
     </description>
     <preReq> MATH 115 with a minimum grade of "C" </preReq>
-    <preReq> OR MATH 120 with a minimum grade of "C" </preReq>
-    <preReq> OR appropiate score on departmental Trigonometry Placement </preReq>
-    <preReq> AND MATH 123 with a minimum grade of "C" </preReq>
+    <preReq> or MATH 120 with a minimum grade of "C" </preReq>
+    <preReq> or appropiate score on departmental Trigonometry Placement </preReq>
+    <preReq> and MATH 123 with a minimum grade of "C" </preReq>
     <coReq></coReq>
     <notes></notes>
 </course>
@@ -164,7 +164,7 @@
         A survey of calculus in higher dimensions that includes an introduction to vectors, vector valued functions, and partial derivatives.
     </description>
     <preReq> MATH 125 with a minimum grade of "C" </preReq>
-    <preReq> OR permission of instructor </preReq>
+    <preReq> or permission of instructor </preReq>
     <coReq></coReq>
     <notes>
         This course may not be used for credit toward an engineering or science degree (except for Mining Engineering).
@@ -181,7 +181,7 @@
         The main purpose of this course is to provide background and experience on the structure of proofs. Topics may include: elementary logic; basic set theory; and sequences of summations, functions, matrices, and proof techniques.
     </description>
     <preReq> MATH 123 with a minimum grade of "C" </preReq>
-    <preReq> OR permission of instructor </preReq>
+    <preReq> or permission of instructor </preReq>
     <coReq></coReq>
     <notes></notes>
 </course>
@@ -210,7 +210,7 @@
         A study of descriptive statistics including graphs, measures of central tendency and variability and an introduction to probability theory, sampling and techniques of statistical inference with an emphasis on statistical applications.
     </description>
     <preReq> MATH 102 </preReq>
-    <preReq> OR MATH 115 </preReq>
+    <preReq> or MATH 115 </preReq>
     <coReq></coReq>
     <notes> 
         Individuals may apply for at most 4 credits toward a degree from the following list of courses: MATH 281, IENG 381/MATH 381, MATH 442.
@@ -259,7 +259,7 @@
         Course topics include: the theory and applications of systems of linear equations, matrices, determinants, vector spaces, linear transformations and applications.
     </description>
     <preReq> MATH 225 </preReq>
-    <preReq> OR permission of instructor. </preReq>
+    <preReq> or permission of instructor. </preReq>
     <coReq></coReq>
     <notes></notes>
 </course>
@@ -302,9 +302,9 @@
         This course is an introduction to numerical methods. Topics include elementary discussion of errors, polynomial interpolation, quadrature, non-linear equations, and systems of linear equations. The algorithmic approach and efficient use of the computer will be emphasized.  Additional topics may include: calculation of eigenvalues and eigenvectors, numerical differentiation and integration, numerical solution of differential equations.
     </description>
     <preReq> MATH 321 </preReq>
-    <preReq> AND CSC 150/150L </preReq>
-    <preReq> OR CSC 170/170L </preReq>
-    <preReq> OR permission of instructor. </preReq>
+    <preReq> and CSC 150/150L </preReq>
+    <preReq> or CSC 170/170L </preReq>
+    <preReq> or permission of instructor. </preReq>
     <coReq></coReq>
     <notes></notes>
 </course>
@@ -393,9 +393,9 @@
         Introduction to the theory and applications of algebraic structures including groups, rings, and fields. 
     </description>
     <preReq> MATH 225 </preReq>
-    <preReq> AND CSC 251 </preReq>
-    <preReq> OR MATH 225 </preReq>
-    <preReq> AND MATH 221 </preReq>
+    <preReq> and CSC 251 </preReq>
+    <preReq> or MATH 225 </preReq>
+    <preReq> and MATH 221 </preReq>
     <coReq></coReq>
     <notes></notes>
 </course>
@@ -424,10 +424,10 @@
         A theoretical treatment of calculus that covers: limits; continuity and differentiability of functions of a single variable.
     </description>
     <preReq> MATH 225 </preReq>
-    <preReq> AND CSC 251 </preReq>
-    <preReq> OR MATH 225 </preReq>
-    <preReq> AND MATH 221 </preReq>
-    <preReq> OR permission of instructor. </preReq>
+    <preReq> and CSC 251 </preReq>
+    <preReq> or MATH 225 </preReq>
+    <preReq> and MATH 221 </preReq>
+    <preReq> or permission of instructor. </preReq>
     <coReq></coReq>
     <notes></notes>
 </course>
@@ -471,7 +471,7 @@
         Accessing, validating, processing, extracting, visualizing and presenting data. Exposure to managing data in a relational database management system. Looking for underlying structure in data using data reduction techniques (e.g., multidimensional scaling, principal components analysis) and, more generally, unsupervised learning techniques (e.g., clustering). Prediction using supervised learning techniques such as discriminant analysis, logistic regression and decision trees. Software may include R and some version of SQL. 
     </description>
     <preReq> MATH 225 </preReq>
-    <preReq> OR permission of instructor. </preReq>
+    <preReq> or permission of instructor. </preReq>
     <coReq></coReq>
     <notes> 
         Students enrolled in MATH 543 will be held to a higer standard than those enrolled in MATH 443. 
@@ -488,7 +488,7 @@
         Accessing, validating, processing, extracting, visualizing and presenting data. Exposure to managing data in a relational database management system. Looking for underlying structure in data using data reduction techniques (e.g., multidimensional scaling, principal components analysis) and, more generally, unsupervised learning techniques (e.g., clustering). Prediction using supervised learning techniques such as discriminant analysis, logistic regression and decision trees. Software may include R and some version of SQL. 
     </description>
     <preReq> MATH 225 </preReq>
-    <preReq> OR permission of instructor. </preReq>
+    <preReq> or permission of instructor. </preReq>
     <coReq></coReq>
     <notes> 
         Students enrolled in MATH 543 will be held to a higer standard than those enrolled in MATH 443. 
@@ -533,7 +533,7 @@
         The primary goal of this course is to present the mathematical formulation and analysis utilized in scientific modeling. Applications from both science and engineering will be covered. The types of models will include deterministic and stochastic models. Topics may include: epidemiology, biomass, elasticity, heat flow, electrical circuits, mechanical vibrations and optimization.
     </description>
     <preReq> MATH 321 </preReq>
-    <preReq> OR permission of instructor </preReq>
+    <preReq> or permission of instructor </preReq>
     <coReq></coReq>
     <notes> Students enrolled in MATH 551 will be held to a higher standard than those enrolled in MATH 451. </notes>
 </course>
@@ -548,7 +548,7 @@
         The primary goal of this course is to present the mathematical formulation and analysis utilized in scientific modeling. Applications from both science and engineering will be covered. The types of models will include deterministic and stochastic models. Topics may include: epidemiology, biomass, elasticity, heat flow, electrical circuits, mechanical vibrations and optimization.
     </description>
     <preReq> MATH 321 </preReq>
-    <preReq> OR permission of instructor </preReq>
+    <preReq> or permission of instructor </preReq>
     <coReq></coReq>
     <notes> Students enrolled in MATH 551 will be held to a higher standard than those enrolled in MATH 451. </notes>
 </course>
@@ -563,8 +563,8 @@
         This course is a capstone experience where students will enhance their mathematics background on selected topics. One of the goals of this course is to foster the ability to learn advanced mathematics and also learn to apply the use of technology in the study of mathematics.
     </description>
     <preReq> MATH 225 </preReq>
-    <preReq> AND MATH 321 </preReq>
-    <preReq> OR permission of instructor </preReq>
+    <preReq> and MATH 321 </preReq>
+    <preReq> or permission of instructor </preReq>
     <coReq></coReq>
     <notes> Students enrolled in MATH 552 will be help to a higher standard that those enrolled in MATH 452. </notes>
 </course>
@@ -579,8 +579,8 @@
         This course is a capstone experience where students will enhance their mathematics background on selected topics. One of the goals of this course is to foster the ability to learn advanced mathematics and also learn to apply the use of technology in the study of mathematics.
     </description>
     <preReq> MATH 225 </preReq>
-    <preReq> AND MATH 321 </preReq>
-    <preReq> OR permission of instructor </preReq>
+    <preReq> and MATH 321 </preReq>
+    <preReq> or permission of instructor </preReq>
     <coReq></coReq>
     <notes> Students enrolled in MATH 552 will be help to a higher standard that those enrolled in MATH 452. </notes>
 </course>
@@ -595,7 +595,7 @@
         Analysis of rounding errors, numerical solutions of nonlinear equations, numerical differentiation, numerical integration, interpolation and approximation, numerical methods for solving linear systems.
     </description>
     <preReq> MATH 373 </preReq>
-    <preReq> OR CSC 372 </preReq>
+    <preReq> or CSC 372 </preReq>
     <coReq></coReq>
     <notes></notes>
 </course>
@@ -610,8 +610,8 @@
         This course covers the development of statistical methods for application to problems in quality and process control. Statistical topics include: basics of processes and variability, statistically controlled processes, variable and attribute control charts, moving averages, individual trend and others, process capability, sampling plans for attributes and variables.
     </description>
     <preReq> IENG 381/MATH 381 </preReq>
-    <preReq> OR MATH 442 </preReq>
-    <preReq> OR permission of instructor. </preReq>
+    <preReq> or MATH 442 </preReq>
+    <preReq> or permission of instructor. </preReq>
     <coReq></coReq>
     <notes></notes>
 </course>

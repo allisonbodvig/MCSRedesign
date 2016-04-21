@@ -13,9 +13,12 @@
   <head>
     <title>Computer Science Courses</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="courseStyle.css">
   </head>
   <body>
     <img src="math-csc-logo.png">
+    <h1>Computer Science Courses</h1>
     </ br>
     <div>
       <ul class="menu">
@@ -71,6 +74,23 @@
         </li>
       </ul>
     </div>
+    
+    <?php
+      //print each element
+      include 'readXML.php';
+      
+      //read in list of classes
+      $cscDB = readXML("csc.xml");
+      
+      //create paragraph for each class
+      foreach ($cscDB as $class)
+      {
+        echo "<div id=\"course\">" . concatCourse($class) . "</div>\n";
+      }
+
+    ?>
+    
+    
   </body>
 
 </html>

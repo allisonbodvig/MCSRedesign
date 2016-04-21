@@ -3,9 +3,8 @@
 //compares course numbers
 function cmp ($a, $b)
 {
-    if( $a["number"] == $b["number"] )
-	{
-		echo "numbers are equal\n";     
+    if ( $a["number"] == $b["number"] )
+	{   
 	   	return 0;
 	}
 
@@ -78,6 +77,57 @@ function readXML($filename)
     //return array of xml file
     return $db;
 
+}
+
+function concatCourse($class)
+{
+    $info = "<h3>" . $class["preFix"] . " " . $class["number"] . 
+        " - " . $class["name"] . "</h3>" .
+      "<b>Credits:</b> " . $class["credits"] . "</br>" ;
+          
+    if ( ! (empty($class["offered"] ) ) )
+        $info = $info . "<b>Offered:</b> " . $class["offered"] . "</br>";
+      
+    $info = $info . "<b>Description:</b> " . $class["description"] . "</br>" .
+      "<b>Prerequisites:</b> " ;
+
+    //check for no preReqs
+    if (empty($class["preReq"][0]))
+    {
+        $info = $info . "None";
+    } else 
+    {
+        //preint each preReq
+        foreach ($class["preReq"] as $req)
+        {
+            $info = $info . $req . " ";
+        }
+    }        
+
+    $info = $info . "</br><b>Corequisites:</b> ";
+
+    //check for no coReqs
+    if (empty($class["coReq"][0]))
+    {
+        $info = $info . "None";
+    } else 
+    {
+        //print each coReq
+        foreach ($class["coReq"] as $req)
+        {
+            $info = $info . $req . " ";
+        }
+    }
+    
+    if (empty($class["notes"]))
+    {
+        $info = $info . "</br><b>Notes:</b> None";
+    } else 
+    {
+        $info = $info . "</br><b>Notes:</b> " . $class["notes"] . "</br>";
+    }
+    
+    return $info;   
 }
 
 ?>
