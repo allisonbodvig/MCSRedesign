@@ -24,65 +24,74 @@
       <ul class="menu">
         <div class="menuTitle">MCS Menu</div>
         <hr class="menuDivider">
+        <li>Home</li>
         <li> Courses
           <ul>
             <li>
-              <a class="menuItem" href="csc-courses.php">Computer Science Courses</a>
+              <a href="csc-courses.php">Computer Science Courses</a>
             </li>
             <li>
-              <a class="menuItem" href="math-courses.php">Math Courses</a>
+              <a href="math-courses.php">Math Courses</a>
             </li>
           </ul>
         </li>
         <li> Web Pages
           <ul>
             <li>
-              <a class="menuItem" href="empty-redirect.html">Faculty</a>
+              <a href="empty-redirect.html">Faculty</a>
             </li>
             <li>
-              <a class="menuItem" href="empty-redirect.html">Students</a>
+              <a href="empty-redirect.html">Students</a>
             </li>
             <li>
-              <a class="menuItem" href="empty-redirect.html">Alumni</a>
+              <a href="empty-redirect.html">Alumni</a>
             </li>
           </ul>
         </li>
-        <li>
-          <a class="menuItem" href="empty-redirect.html">Departmental Directory</a>
+        <li> Checklist
+          <ul>
+            <li>
+              <a href="empty-redirect.html">CS Checklist</a>
+            </li>
+            <li>
+              <a href="empty-redirect.html">CS Flowchart</a>
+            </li>
+            <li>
+              <a href="empty-redirect.html">CS Course Schedualer</a>
+            </li>
+          </ul>
         </li>
-        <li>
-          <a class="menuItem" href="empty-redirect.html">Building Map</a>
-        </li>
-        <li>
-          <a class="menuItem" href="empty-redirect.html">CS Checklist</a>
-        </li>
-        <li>
-          <a class="menuItem" href="empty-redirect.html">CS Flowchart</a>
-        </li>
-        <li>
-          <a class="menuItem" href="empty-redirect.html">CS Course Schedualer</a>
-        </li>
-        <li>
-          <a class="menuItem" href="empty-redirect.html">MCS Colloquium</a>
-        </li>
-        <li>
-          <a class="menuItem" href="empty-redirect.html">MCS Research</a>
+        <li> Research
+          <ul>
+            <li>
+              <a href="empty-redirect.html">MCS Colloquium</a>
+            </li>
+            <li>
+              <a href="empty-redirect.html">MCS Research</a>
+            </li>
+          </ul>
         </li>
         <li> Resources
           <ul>
             <li>
-              <a class="menuItem" href="empty-redirect.html">Student Organizations</a>
+              <a href="empty-redirect.html">Student Organizations</a>
             </li>
             <li>
-              <a class="menuItem" href="empty-redirect.html">Tutorials and Resources</a>
+              <a href="empty-redirect.html">Tutorials and Resources</a>
             </li>
             <li>
-              <a class="menuItem" href="empty-redirect.html">Policy, Forms, Coding Standards</a>
+              <a href="empty-redirect.html">Policy, Forms, Coding Standards</a>
             </li>
           </ul>
         </li>
         <li>
-          <a class="menuItem" href="empty-redirect.html">Submit It!</a>
+          <a href="empty-redirect.html">Departmental Directory</a>
+        </li>
+        <li>
+          <a href="empty-redirect.html">Building Map</a>
+        </li>
+        <li>
+          <a href="empty-redirect.html">Submit It!</a>
         </li>
       </ul>
     </div>

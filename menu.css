@@ -6,6 +6,7 @@
 
 ul.menu
 {
+    position: relative;
     width: 250px;
     background-color: rgb(7, 29, 73);
     color: white;
@@ -16,14 +17,6 @@ ul.menu
     margin: 16px 20px 10px 0px;
 }
 
-ul.menu li
-{
-    color: white;
-    text-decoration: none !important;
-    font-size: 16pt;
-    cursor: pointer;
-}
-
 ul.menu a
 {
     color: white;
@@ -31,10 +24,30 @@ ul.menu a
     font-size: 16pt;
 }
 
-ul.menu a:hover
+ul.menu li
+{
+    color: white;
+    text-decoration: none !important;
+    font-size: 16pt;
+    cursor: pointer;
+    padding: 5px 0 5px 20px;
+    margin: 0 0 0 0;
+    border: 2px solid transparent;
+}
+
+ul.menu li:hover 
 {
     color: rgb(179, 163, 105);
-    cursor: pointer;
+    background-color: rgb(14, 36, 80);
+    border-radius: 5px;
+    border: 2px inset rgb(224, 212, 187);
+}
+
+ul.menu li:hover a
+{
+    color: rgb(179, 163, 105);
+    background-color: rgb(14, 36, 80);
+    border-radius: 5px;
 }
 
 ul.menu li ul
@@ -47,32 +60,34 @@ ul.menu li:hover ul
     position: absolute;
     background-color: rgb(7, 29, 73);
     z-index: 90;
-    left: 30px;
+    left: 99%;
+    margin-top: -12%;
     display: block;
     list-style-type: none;
+    border-radius: 10px;
+    width: 200px;
+    padding: 5px;
 }
 
-ul.menu li ul a
+ul.menu li:hover ul a
 {
+    background-color: rgb(7, 29, 73);
     color: white;
     text-decoration: none !important;
     font-size: 12pt;
 }
 
-/*
-a.menuItem
-{
-    color: white;
-    text-decoration: none !important;
-    font-size: 16pt;
-}
-
-a.menuItem:hover
+ul.menu li:hover ul a:hover
 {
     color: rgb(179, 163, 105);
-    cursor: pointer;
+    background-color: rgb(14, 36, 80);
 }
-*/
+
+ul.menu li:hover ul li:hover a
+{
+    color: rgb(179, 163, 105);
+    background-color: rgb(14, 36, 80);
+}
 
 hr
 {
