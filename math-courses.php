@@ -33,6 +33,15 @@
     <div class="login">
     <h1> Math Courses</h1>
     </ br>
+    <?php 
+      if(isset($_SESSION["admin"]) && $_SESSION["admin"] == true)
+      { ?>
+        <div class="addCourse">
+          <form action="form.php" method="post">
+            <input type="submit" name="addCourse" value="Add Course">
+          </form>
+        </div>
+      <?php } ?>
     <div>
       <ul class="menu">
         <div class="menuTitle">MCS Menu</div>

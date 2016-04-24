@@ -3,6 +3,7 @@
     <head>
         <title>Edit Courses</title>
         <link rel="stylesheet" href="style.css">
+        <script src="form-validation.js"></script>
     </head>
     <body>
     
