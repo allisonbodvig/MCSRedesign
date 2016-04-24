@@ -113,6 +113,38 @@ function addAnchor ( $str, $preFix )
 
 }
 
+//isolate class from pre and co reqs
+function createLink( $str )
+{
+    $tag = null;
+
+    if ( strpos ($str, "MATH") !== false )
+    {
+        preg_match('!\d+!', $str, $matches);
+        $tag = "MATH " . $matches[0];
+    } else if ( strpos ($str, "CSC") !== false )
+    {
+        preg_match('!\d+!', $str, $matches);
+        $tag = "CSC " . $matches[0];
+    }
+
+    if ( empty ( $tag ) )
+    {
+        return null;
+    } else
+    {
+
+        $length = strpos($str, $tag);
+        
+        $pieces[0] = substr($str, 0, $length);
+        $pieces[1] = $tag;
+        $pieces[2] = substr( $str, $length + strlen($tag) );
+        
+        return $pieces;
+        
+    }
+}
+
 function concatCourse($class)
 {
     $id = $class["preFix"] . $class["number"];
@@ -137,14 +169,20 @@ function concatCourse($class)
         foreach ($class["preReq"] as $req)
         {
            $tag = addAnchor($req, $class["preFix"]);
-           
+           $pieces = createLink($req);           
+                       
            //create anchor tag for classes
            if ( is_null ( $tag ) )
            {
                 $info = $info . $req . " ";
            } else
            {
-                $info = $info . "<a href=\"" . $tag . "\">" . $req . "</a> ";
+               if ( ! (is_null ( $pieces ) ) )
+               {
+                    $info = $info . $pieces[0] . "<a href=\"" . $tag . "\">" . 
+                        $pieces[1] . "</a> " . $pieces[2] . " "  ;
+               } 
+                    
            }
 
         }
@@ -162,6 +200,7 @@ function concatCourse($class)
         foreach ($class["coReq"] as $req)
         {
            $tag = addAnchor($req, $class["preFix"]);
+           $pieces = createLink($req); 
            
            //create anchor tag for classes
            if ( is_null ( $tag ) )
@@ -169,7 +208,11 @@ function concatCourse($class)
                 $info = $info . $req . " ";
            } else
            {
-                $info = $info . "<a href=\"" . $tag . "\">" . $req . "</a> ";
+               if ( ! (is_null ( $pieces ) ) )
+               {
+                    $info = $info . $pieces[0] . "<a href=\"" . $tag . "\">" . 
+                        $pieces[1] . "</a> " . $pieces[2] . " "  ;
+               } 
            }
         }
     }
@@ -186,5 +229,10 @@ function concatCourse($class)
 }
 
 //addAnchor("MATH 110");
+//$str = "MATH 321";
+
+//$result = createLink($str);
+
+//print_r ($result);
 
 ?>
