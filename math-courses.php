@@ -9,6 +9,10 @@
  -->
 
 <!DOCTYPE html>
+
+<?php
+  session_start();
+?>
 <html>
   <head>
     <title>Math Courses</title>
@@ -17,6 +21,9 @@
     <link rel="stylesheet" href="courseStyle.css">
   </head>
   <body>
+    <?php 
+      echo $_SESSION["username"];
+    ?>
     <img src="math-csc-logo.png">
     <h1> Math Courses</h1>
     </ br>

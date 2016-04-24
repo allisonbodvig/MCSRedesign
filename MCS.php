@@ -11,6 +11,20 @@
  -->
 
 <!DOCTYPE html>
+
+<?php
+  session_start();
+
+  $loggedIn = false;
+
+  if(isset($_SESSION["username"]))
+    {
+      $loggedIn = true;
+    }
+
+?>
+
+
 <html>
   <head>
     <title>Home</title>
@@ -19,6 +33,26 @@
   </head>
   <body>
     <img src="math-csc-logo.png">
+    <?php
+      if ($loggedIn != true)
+      { ?>
+        <form class="login" action="login.php" method="post">
+          <label>Username: </label>
+          <input type="text" name="username" maxlength="50">
+
+          <label>Password: </label>
+          <input type="password" name="password" maxlength="50">
+
+          <input type="submit" name="login" value="Login">
+        </form>
+      <?php
+      }
+      else
+      { 
+        echo "<div class='login'>Welcome " . $_SESSION["username"] . "!" . 
+          "<form action='login.php' method='post'>" . 
+          "<input type='submit' value='Logout' name='logout'> </form></div>";
+      } ?>
     </ br>
     <div>
       <ul class="menu">
