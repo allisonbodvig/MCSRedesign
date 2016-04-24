@@ -59,7 +59,7 @@
               <a href="empty-redirect.html">CS Flowchart</a>
             </li>
             <li>
-              <a href="empty-redirect.html">CS Course Schedualer</a>
+              <a href="empty-redirect.html">CS Course Scheduler</a>
             </li>
           </ul>
         </li>
