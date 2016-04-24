@@ -2,10 +2,34 @@ html
 {
     background-color: rgb(224, 212, 187);
     border-radius: 10px 30px;
-    min-width: 600px;
+    min-width: 650px;
 }
 
 hr
 {
     border-color: rgb(224, 212, 187);
+}
+
+.footer
+{
+    background-color: rgb(7, 29, 73);
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.footer div
+{
+    position: absolute;
+    left: 45%;
+}
+
+.footer a
+{
+    margin: 0 10px 0 10px;
+    float: left;
+    color: white;
 }
