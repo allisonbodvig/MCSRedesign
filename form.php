@@ -3,6 +3,7 @@
     <head>
         <title>Edit Courses</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="form-style.css">
         <script src="form-validation.js"></script>
     </head>
     <body>
@@ -15,21 +16,26 @@
     Show class to all users? 
     <input type="radio" name="active" value="Yes" <?php if ( 1 == $values[0] ) { echo "checked"; } ?> > Yes
     <input type="radio" name="active" value="No" <?php if ( 1 != $values[0] ) { echo "checked"; }?> > No
-    
-    <br/><br/>
-    Name:
-    <input type="text" name="name" size="40" value="<?php echo $values[1]; ?>" />
-    <br><br>
+    <br/>
+    <span class="error" id="nameError"></span>
+    <br/>
+    Name: 
+    <input type="text" name="name" size="40" onblur="validateName(this, 'nameError')" value="<?php echo $values[1]; ?>" />
+    <br/>
+    <span class="error" id="numberError"></span>
+    <br/>
     Course: 
     <select name="preFix">
         <option value="CSC" <?php if ( !strcmp( "CSC", $values[2] ) ) { echo "selected"; }?> >CSC</option>
         <option value="MATH" <?php if ( !strcmp( "MATH", $values[2] ) ) { echo "selected"; } ?> >MATH</option>
     </select>
-    <input type="text" name="number" size="5" value="<?php echo $values[3]; ?>" />
+    <input type="text" name="number" onblur="validateCourseNumber(this, 'numberError')" size="5" value="<?php echo $values[3]; ?>" />
     
-    <br/><br/>
+    <br/>
+    <span class="error" id="creditsError"></span>
+    <br/>
     Credits:
-    <input type="text" name="credits" size="10" value="<?php echo $values[4]; ?>" />
+    <input type="text" name="credits" onblur="validateCredits(this, 'creditsError')" size="10" value="<?php echo $values[4]; ?>" />
     
     <br/><br/>
     Offered: 
