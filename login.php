@@ -5,10 +5,14 @@ if( isset($_POST["login"]))
 {
   if(isset($_POST["username"]) && isset($_POST["password"]))
     {
-      $_SESSION["username"] = $_POST["username"];
-      if($_POST["password"] == "admin")
+      if($_POST["password"] != "" && $_POST["username"] != "")
       {
-        $_SESSION["admin"] = true;
+        $_SESSION["username"] = $_POST["username"];
+
+        if($_POST["password"] == "admin")
+        {
+          $_SESSION["admin"] = true;
+        }
       }
     }
 }

@@ -18,8 +18,21 @@
   </head>
   <body>
     <img src="math-csc-logo.png">
+    <?php
+      if(isset($_SESSION["username"]))
+      {
+        echo "<div class='login'>Welcome " . $_SESSION["username"] . "!" . 
+          "<form action='login.php' method='post'>" . 
+          "<input type='submit' value='Logout' name='logout'> </form></div>";
+      }
+    ?>
     <h1>Computer Science Courses</h1>
     </ br>
+    <div class="addCourse">
+      <form action="form.php" method="post">
+        <input type="submit" name="addCourse" value="Add Course">
+      </form>
+    </div>
     <div>
       <ul class="menu">
         <div class="menuTitle">MCS Menu</div>

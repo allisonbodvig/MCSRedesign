@@ -3,6 +3,7 @@ html
     background-color: rgb(224, 212, 187);
     border-radius: 10px 30px;
     min-width: 650px;
+    margin-bottom: 50px;
 }
 
 hr

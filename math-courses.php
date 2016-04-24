@@ -21,10 +21,16 @@
     <link rel="stylesheet" href="courseStyle.css">
   </head>
   <body>
-    <?php 
-      echo $_SESSION["username"];
-    ?>
     <img src="math-csc-logo.png">
+    <?php
+      if(isset($_SESSION["username"]))
+      {
+        echo "<div class='login'>Welcome " . $_SESSION["username"] . "!" . 
+          "<form action='login.php' method='post'>" . 
+          "<input type='submit' value='Logout' name='logout'> </form></div>";
+      }
+    ?>
+    <div class="login">
     <h1> Math Courses</h1>
     </ br>
     <div>
