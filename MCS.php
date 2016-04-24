@@ -84,15 +84,21 @@
             </li>
           </ul>
         </li>
+        <a href="empty-redirect.html">
+          <li>
+            Departmental Directory
+          </li>
+        </a>
+        <a href="empty-redirect.html">
+          <li>
+            Building Map
+          </li>
+        </a>
+        <a href="empty-redirect.html">
         <li>
-          <a href="empty-redirect.html">Departmental Directory</a>
+          Submit It!
         </li>
-        <li>
-          <a href="empty-redirect.html">Building Map</a>
-        </li>
-        <li>
-          <a href="empty-redirect.html">Submit It!</a>
-        </li>
+        </a>
       </ul>
     </div>
 
@@ -104,6 +110,13 @@
     <p>A Few Items Still on this Website
 The code submission page has been redesigned to hopefully make it more user friendly and intuitive. The code submission page can now be found under "Students Submit It!". The Alumni, resources, and policy pages on the left navigation menu are still complete with the information we have been maintaining. Please check out the new department home at http://www.sdsmt.edu/MCS/ to get the latest and greatest information.</p>
 
+    <div class="footer">
+      <hr>
+      <div>
+        <a href="https://www.google.com">Google</a>
+        <a href="MCS.php">Home</a>
+      </div>
+    </div>
   </body>
 
 </html>

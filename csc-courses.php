@@ -24,9 +24,9 @@
       <ul class="menu">
         <div class="menuTitle">MCS Menu</div>
         <hr class="menuDivider">
-        <li>
-          <a href="MCS.php">Home</a>
-        </li>
+        <a href="MCS.php">
+          <li>Home</li>
+        </a>
         <li> Courses
           <ul>
             <li>
@@ -86,15 +86,21 @@
             </li>
           </ul>
         </li>
+        <a href="empty-redirect.html">
+          <li>
+            Departmental Directory
+          </li>
+        </a>
+        <a href="empty-redirect.html">
+          <li>
+            Building Map
+          </li>
+        </a>
+        <a href="empty-redirect.html">
         <li>
-          <a href="empty-redirect.html">Departmental Directory</a>
+          Submit It!
         </li>
-        <li>
-          <a href="empty-redirect.html">Building Map</a>
-        </li>
-        <li>
-          <a href="empty-redirect.html">Submit It!</a>
-        </li>
+        </a>
       </ul>
     </div>
     
@@ -113,7 +119,14 @@
 
     ?>
     
-    
+    <div class="footer">
+      <hr>
+      <div>
+        <a href="https://www.google.com">Google</a>
+        <a href="MCS.php">Home</a>
+        <a href="#">Top</a>
+      </div>
+    </div>
   </body>
 
 </html>
