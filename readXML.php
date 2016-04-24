@@ -225,6 +225,40 @@ function concatCourse($class)
         $info = $info . "</br><b>Notes:</b> " . $class["notes"] . "</br>";
     }
     
+    //add edit button
+    $info = $info . "<form action = \"form.php\" method=\"post\"> \n <input type=\"submit\" name=\"action\" value=\"Edit\"/> \n";
+    
+    /*foreach ($class as $item)
+    {
+         
+        if (is_array($item) )
+        {
+            foreach ($item as $stuff)
+                $info = $info . "<input type=\"hidden\" name=\"class[]\" value=\"" . $stuff . "\"/>";
+        } else 
+            $info = $info . "<input type=\"hidden\" name=\"class[]\" value=\"" . $item . "\"/>";
+        
+    }*/
+    
+    $info = $info . "<input type=\"hidden\" name=\"class[]\" value=\"" . $class["active"] . "\"/>";
+    $info = $info . "<input type=\"hidden\" name=\"class[]\" value=\"" . $class["name"] . "\"/>";
+    $info = $info . "<input type=\"hidden\" name=\"class[]\" value=\"" . $class["preFix"] . "\"/>";
+    $info = $info . "<input type=\"hidden\" name=\"class[]\" value=\"" . $class["number"] . "\"/>";
+    $info = $info . "<input type=\"hidden\" name=\"class[]\" value=\"" . $class["credits"] . "\"/>";
+    $info = $info . "<input type=\"hidden\" name=\"class[]\" value=\"" . $class["offered"] . "\"/>";
+    $info = $info . "<input type=\"hidden\" name=\"class[]\" value=\"" . $class["description"] . "\"/>";
+    
+    foreach ($class["preReq"] as $stuff)
+                $info = $info . "<input type=\"hidden\" name=\"pre[]\" value=\"" . $stuff . "\"/>";
+   
+    foreach ($class["coReq"] as $stuff)
+                $info = $info . "<input type=\"hidden\" name=\"co[]\" value=\"" . $stuff . "\"/>";
+    
+    $info = $info . "<input type=\"hidden\" name=\"class[]\" value=\"" . $class["notes"] . "\"/>";
+    
+    
+    $info = $info . "</form>";
+    
     return $info;   
 }
 
