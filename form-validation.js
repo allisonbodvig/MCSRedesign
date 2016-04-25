@@ -17,7 +17,7 @@ function validateName(elem, error)
 function validateCourseNumber(elem, error)
 {
    var obj = document.getElementById(error);
-   var isnum = /^[0-9]+$/.test(elem.value);
+   var isnum = /^[0-9L]+$/.test(elem.value);
    var number = parseInt(elem.value);
 
    if(elem.value == "")
