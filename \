@@ -301,13 +301,13 @@ function updateCourse($xml, $child, $course, $filename)
     $child->credits = $course["credits"];
     $child->offered = $course["offered"];
     $child->description = $course["description"];
+    
+    $child->preReq = "";
 
     foreach($course['preReq'] as $preReq)
     {
-	    
- 	#echo $preReq . "\n";   
+     	echo $preReq . "\n";   
 	$child->addChild('preReq',  $preReq);
-    
     }
 
     foreach($course['coReq'] as $coReq)

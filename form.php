@@ -16,7 +16,7 @@
     <?php $values = $_POST['class']; ?>
     
     Show class to all users? 
-    <input type="radio" name="active" value="Yes" <?php if ( !strcasecmp($values[0], "Yes" ) ) { echo "checked"; } ?> > Yes
+    <input type="radio" name="active" value="Yes" <?php if ( (!strcasecmp($values[0], "Yes" )) or (empty($values[0]) )) { echo "checked"; } ?> > Yes
     <input type="radio" name="active" value="No" <?php if ( !strcasecmp($values[0], "No") ) { echo "checked"; }?> > No
     <br/>
     <span class="error" id="nameError"></span>
