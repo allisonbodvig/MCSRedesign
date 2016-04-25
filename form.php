@@ -49,30 +49,123 @@
     </textarea>
     
     <br><br>
-    Prerequisites:
+    Prerequisites (Course Prefix, Course Number, Notes):
+    <br><br>
+    <button onclick="addReq('req', 'pre')">Add</button>
+
+    <div id="req"> 
+
     <?php
-     foreach ($_POST['pre'] as $item)
+     include 'readXML.php';
+     $reqs = $_POST['pre'];
+     
+     foreach ($reqs as $item)
      {
-        $result = createLink($item);
-        //prefix and number in $result[1], anything before in [0] and everything after in [2]
-        
+        if (!empty ($item))
+        {
+           $result = createLink($item);
+           
+           if ( empty ($result) )
+           {
+             $notes = $item;
+             $info = null;
+               
+           } else 
+           {
+             $info = explode(" ", $result[1] );
+             $notes = $result[2];
+           }
+
+           //select for preFix - automatically set to NONE
+           echo "<div><br><select name=\"pre\"> <option value=\"NONE\" selected>NONE</option> <option value=\"CSC\"";
+             
+           if ( strpos($info[0], "CSC" ) !== false ) 
+           { 
+              echo "selected"; 
+           } 
+            
+           echo ">CSC</option>" ;
+            
+           echo "<option value=\"MATH\" ";
+             
+           if ( strpos($info[0], "MATH" ) !== false ) 
+           { 
+              echo "selected";
+           }
+             
+           echo ">MATH</option> </select> ";
+            
+            //echo class number
+           echo "<input type=\"text\" name=\"number\" onblur=\"validateCourseNumber(this, 'numberError')\" size=\"5\" value=\" ". $info[1] . "\" />" ;
+           
+           echo "<input type=\"text\" name=\"info\" size=\"45\" value=\"". $notes . "\" /> <button onclick=\"removeReq(this)\">Remove</button></div>" ;
+       }
      }
     ?>
-    
+    </div>
     
     <br><br>
-    Corequisites:
+    Corequisites (Course PreFix, Course Number, Notes):
+    <br/><br/>
+    
+    <button onclick="addReq('Creq', 'co')">Add</button>
+    
+    <div id="Creq">
+    
     <?php
-    include 'readXML.php';
-    
-    foreach ($_POST['co'] as $item)
-    {
+     //include 'readXML.php';
+     $reqs = $_POST['co'];
+     
+     //print_r ($reqs);
+     
+     foreach ($reqs as $item)
+     {
         
-        
+       $result = createLink($item);
+       
+       if ( !empty ($item))
+       {
+        if ( empty ($result) )
+        {
+          $notes = $item;
+          $info = null;
+           
+        } else 
+        {
+          $info = explode(" ", $result[1] );
+          $notes = $result[2];
+         }
+
+       //select for preFix - automatically set to NONE
+        echo "<div><br><select name=\"co\"> <option value=\"NONE\" selected>NONE</option> <option value=\"CSC\"";
          
-    }
-    
+         if ( strpos($info[0], "CSC" ) !== false ) 
+         { 
+            echo "selected"; 
+         } 
+        
+         echo ">CSC</option>" ;
+        
+         echo "<option value=\"MATH\" ";
+         
+         if ( strpos($info[0], "MATH" ) !== false ) 
+         { 
+          echo "selected";
+         }
+           
+         echo ">MATH</option> </select> ";
+          
+        //echo class number
+         echo "<input type=\"text\" name=\"number\" onblur=\"validateCourseNumber(this, 'numberError')\" size=\"5\" value=\" ". $info[1] . "\" />" ;
+       
+         echo "<input type=\"text\" name=\"info\" size=\"45\" value=\"". $notes . "\" /> <button onclick=\"removeReq(this)\">Remove</button></div>" ;
+        
+        
+       }
+
+     } 
     ?>
+     </div>
     
     <br/><br/>
     Notes:
@@ -82,49 +175,10 @@
     </textarea>
     
     
+    
+    
     </fieldset>
-        <?php
-
-            /*if ($_POST['action'] && $_POST['class']) 
-            {
-                if ($_POST['action'] == 'Edit') 
-                {
-                    // edit the post with $_POST['id']
-                    foreach ( $_POST['class'] as $item )
-                    {
-                        echo $item . "<br>";
-                    }
-                }
-            }
-            
-            if ($_POST['action'] && $_POST['pre']) 
-            {
-                if ($_POST['action'] == 'Edit') 
-                {
-                    // edit the post with $_POST['id']
-                    foreach ( $_POST['pre'] as $item )
-                    {
-                        echo $item . "<br>";
-                    }
-                }
-            }
-            
-            if ($_POST['action'] && $_POST['co']) 
-            {
-                if ($_POST['action'] == 'Edit') 
-                {
-                    // edit the post with $_POST['id']
-                    foreach ( $_POST['co'] as $item )
-                    {
-                        echo $item . "<br>";
-                    }
-                }
-            }*/
-            
-            
-
-
-        ?>
+   
     </body>
 
 </html>

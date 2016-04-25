@@ -48,7 +48,7 @@
     <description>
         Equations and inequalities; polynomial functions and graphs, exponents, radicals, binomial theorem, zeros of polynomials; systems of equations; exponential, logarithmic, and inverse functions, applications and graphs. Other topics selected from sequences, series, and complex numbers.
    </description>
-    <preReq>MATH 101 with minimum grade of "C"</preReq>
+    <preReq>MATH 101 with minimum grade of C</preReq>
     <preReq>or appropiate mathematics placement</preReq>
     <coReq>MATH 102L</coReq>
     <notes> 
@@ -94,7 +94,7 @@
     <description>     
         A preparatory course for the calculus sequence. Topics include: polynomial, rational, exponential, logarithmic and trigonometric functions and their graphs; systems of equations, inequalities and complex numbers.
    </description>
-    <preReq>MATH 101 with a minimum grade of "C"</preReq>
+    <preReq>MATH 101 with a minimum grade of C</preReq>
     <preReq>or appropiate mathematics placement.</preReq>
     <coReq></coReq>
     <notes> 
@@ -111,7 +111,7 @@
     <description>    
         Topics include: trigonometric functions, equations, and identities; inverse trigonometric functions; exponential and logarithmic functions, and applications of these functions.
    </description>
-    <preReq>MATH 102 with minimum grade of "C"</preReq>
+    <preReq>MATH 102 with minimum grade of C</preReq>
     <preReq>or appropiate mathematics placement</preReq>
     <coReq></coReq>
     <notes> 
@@ -128,7 +128,7 @@
     <description>
         The study of limits, continuity, derivatives, applications of the derivative, antiderivatives, the definite and indefinite integral, and the fundamental theorem of calculus.
    </description>
-    <preReq>MATH 115 with a grade of "C".</preReq>
+    <preReq>MATH 115 with a grade of C.</preReq>
     <preReq>or appropiate mathematics placement</preReq>
     <preReq>or permission of instructor</preReq>
     <coReq></coReq>
@@ -146,10 +146,10 @@
     <description>
         A continuation of the study of calculus, including the study of sequences, series, polar coordinates, parametric equations, techniques of integration, applications of integration, indeterminate forms, and improper integrals.
    </description>
-    <preReq>MATH 115 with a minimum grade of "C"</preReq>
-    <preReq>or MATH 120 with a minimum grade of "C"</preReq>
+    <preReq>MATH 115 with a minimum grade of C</preReq>
+    <preReq>or MATH 120 with a minimum grade of C</preReq>
     <preReq>or appropiate score on departmental Trigonometry Placement</preReq>
-    <preReq>and MATH 123 with a minimum grade of "C"</preReq>
+    <preReq>and MATH 123 with a minimum grade of C</preReq>
     <coReq></coReq>
     <notes></notes>
 </course>
@@ -163,7 +163,7 @@
     <description>
         A survey of calculus in higher dimensions that includes an introduction to vectors, vector valued functions, and partial derivatives.
    </description>
-    <preReq>MATH 125 with a minimum grade of "C"</preReq>
+    <preReq>MATH 125 with a minimum grade of C</preReq>
     <preReq>or permission of instructor</preReq>
     <coReq></coReq>
     <notes>
@@ -180,7 +180,7 @@
     <description>
         The main purpose of this course is to provide background and experience on the structure of proofs. Topics may include: elementary logic; basic set theory; and sequences of summations, functions, matrices, and proof techniques.
    </description>
-    <preReq>MATH 123 with a minimum grade of "C"</preReq>
+    <preReq>MATH 123 with a minimum grade of C</preReq>
     <preReq>or permission of instructor</preReq>
     <coReq></coReq>
     <notes></notes>
@@ -195,7 +195,7 @@
     <description>
         A continuation of the study of calculus, including an introduction to vectors, vector calculus, partial derivatives, and multiple integrals.
    </description>
-    <preReq>MATH 125 with minimum grade of "C".</preReq>
+    <preReq>MATH 125 with minimum grade of C.</preReq>
     <coReq></coReq>
     <notes></notes>
 </course>
@@ -273,7 +273,7 @@
     <description>
         Selected topics from ordinary differential equations including development and applications of first order, higher order linear and systems of linear equations, general solutions and solutions to initial-value problems using matrices. Additional topics may include Laplace transforms and power series solutions.  In addition to analytical methods this course will also provide an introduction to numerical solution techniques.
    </description>
-    <preReq>MATH 125 with a minimum grade of "C".</preReq>
+    <preReq>MATH 125 with a minimum grade of C.</preReq>
     <coReq></coReq>
     <notes> MATH 225 and MATH 321 may be taken concurrently or in either order.</notes>
 </course>
@@ -318,7 +318,7 @@
     <description>
         Introduction to probability theory, discrete and continuous distributions, sampling distributions and the central limit theorem with general principles for statistical inference and applications of random sampling to hypothesis testing, confidence limits, correlation, and regression.
    </description>
-    <preReq>MATH 125 with a "C" or better.</preReq>
+    <preReq>MATH 125 with a C or better.</preReq>
     <coReq></coReq>
     <notes> 
         This course is cross listed with IENG 381. Individuals may apply at most 4 credits toward a degree from the following list of courses: MATH 281, IENG 381/MATG 381, MATH 442.
@@ -455,8 +455,8 @@
     <description>
         Fourier series, partial differential equations, Frobenius series, Bessel functions, and transform methods.
    </description>
-    <preReq>MATH 225 with minimum grade of "C"</preReq>
-    <preReq>MATH 321 with minimum grade of "C"</preReq>
+    <preReq>MATH 225 with minimum grade of C</preReq>
+    <preReq>MATH 321 with minimum grade of C</preReq>
     <coReq></coReq>
     <notes></notes>
 </course>

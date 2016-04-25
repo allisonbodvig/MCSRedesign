@@ -131,7 +131,7 @@
     <preReq>CSC 150</preReq>
     <preReq>CSC 150L</preReq>
     <coReq></coReq>
-    <notes>Completed CSC 150/L completed with a minimum grade of "C".</notes>
+    <notes>Completed CSC 150/L completed with a minimum grade of C.</notes>
 </course>
 
 <course isActive="yes">
@@ -183,7 +183,7 @@
     <preReq>CSC 250</preReq>
     <preReq>CSC 251</preReq>
     <coReq></coReq>
-    <notes>Completed CSC 250 with a minimum grade of "C".</notes>
+    <notes>Completed CSC 250 with a minimum grade of C.</notes>
 </course>
 
 <course isActive="yes">
@@ -193,7 +193,7 @@
     <credits>2</credits>
     <offered></offered>
     <description>A thorough introduction to assembly language programming and processor architecture. A study of low-level programming techniques, and the layout of a typical computer. The student will gain insight into the memory layout, registers, run-time stack, and global data segment of a running program.</description>
-    <preReq>CSC 250 with grade of "C" or better.</preReq>
+    <preReq>CSC 250 with grade of C or better.</preReq>
     <coReq>CSC 314L</coReq>
     <notes>This course is cross listed with CENG 314/314L Graduation credit will not be allowed for both this course and CENG 314/314L.</notes>
 </course>
@@ -205,7 +205,7 @@
     <credits>1</credits>
     <offered></offered>
     <description>A thorough introduction to assembly language programming and processor architecture. A study of low-level programming techniques, and the layout of a typical computer. The student will gain insight into the memory layout, registers, run-time stack, and global data segment of a running program.</description>
-    <preReq>CSC 250 with grade of "C" or better.</preReq>
+    <preReq>CSC 250 with grade of C or better.</preReq>
     <coReq>CSC 314</coReq>
     <notes>This course is cross listed with CENG 314/314L Graduation credit will not be allowed for both this course and CENG 314/314L.</notes>
 </course>
@@ -217,7 +217,7 @@
     <credits>3</credits>
     <offered></offered>
     <description>A course in computer organization with emphasis on the hierarchical structure of computer systems. Covers such topics as: components of computer systems and their configuration, design of basic digital circuits, the microprogram level, the conventional machine level, the operating system level, assembly language, addressing modes, interpreters/translators, computer arithmetic.</description>
-    <preReq>CSC 314/L with a grade of "C" or better</preReq>
+    <preReq>CSC 314/L with a grade of C or better</preReq>
     <preReq>CSC 251</preReq>
     <coReq></coReq>
     <notes></notes>
@@ -231,7 +231,7 @@
     <offered></offered>
     <description>Design and analysis of algorithms for numeric and nonnumeric problems, general problem-solving approaches, theory of computation. Topics will be selected from searching, sorting, graph algorithms, numerical algorithms, geometric algorithms, cryptography, and parallel algorithms.</description>
     <preReq>MATH 125</preReq>
-    <preReq>CSC 300 with a minimum grade of "C"</preReq>
+    <preReq>CSC 300 with a minimum grade of C</preReq>
     <coReq></coReq>
     <notes></notes>
 </course>
@@ -267,7 +267,7 @@
     <credits>3</credits>
     <offered></offered>
     <description>The fundamental ideas and issues involved in programming and using parallel computers. A survey of modern architectures and operating systems. Parallel programming applications in business, economic modeling, and science. The School of Mines emphasizes scientific applications.</description>
-    <preReq>CSC 300 with grade of "C" or better</preReq>
+    <preReq>CSC 300 with grade of C or better</preReq>
     <coReq></coReq>
     <notes>Students enrolled in CSC 510 will be held to a higher standard than those enrolled in CSC 410.</notes>
 </course>
@@ -279,7 +279,7 @@
     <credits>3</credits>
     <offered></offered>
     <description>The fundamental ideas and issues involved in programming and using parallel computers. A survey of modern architectures and operating systems. Parallel programming applications in business, economic modeling, and science. The School of Mines emphasizes scientific applications.</description>
-    <preReq>CSC 300 with grade of "C" or better</preReq>
+    <preReq>CSC 300 with grade of C or better</preReq>
     <coReq></coReq>
     <notes>Students enrolled in CSC 510 will be held to a higher standard than those enrolled in CSC 410.</notes>
 </course>
@@ -342,7 +342,7 @@
     <credits>3</credits>
     <offered></offered>
     <description>An introduction to mechatronic systems and embedded systems for robotics. This course will cover the basics required for autonomous mobile robotics. The course will begin with a survey of existing systems and some background mathematics. Core course topics will include electromechanical components, electronics for motor control, sensors and instrumentation, mobile robotic kinematics and movement, microcontrollers, real time computing, and embedded system design and development. Course projects will include student teams building task oriented mobile robots with emphasis on the hardware development.</description>
-    <preReq>CSC 300 with a grade of "C" or better</preReq>
+    <preReq>CSC 300 with a grade of C or better</preReq>
     <preReq>MATH 321</preReq>
     <coReq>CSC 415L</coReq>
     <notes>Students enrolled in CSC 515/515L will be held to a higher standard than those enrolled in CSC 415/415L. This course is cross listed with CENG 415/415L/515/515L.</notes>
@@ -355,7 +355,7 @@
     <credits>1</credits>
     <offered></offered>
     <description>An introduction to mechatronic systems and embedded systems for robotics. This course will cover the basics required for autonomous mobile robotics. The course will begin with a survey of existing systems and some background mathematics. Core course topics will include electromechanical components, electronics for motor control, sensors and instrumentation, mobile robotic kinematics and movement, microcontrollers, real time computing, and embedded system design and development. Course projects will include student teams building task oriented mobile robots with emphasis on the hardware development.</description>
-    <preReq>CSC 300 with a grade of "C" or better</preReq>
+    <preReq>CSC 300 with a grade of C or better</preReq>
     <preReq>MATH 321</preReq>
     <coReq>CSC 415</coReq>
     <notes>Students enrolled in CSC 515/515L will be held to a higher standard than those enrolled in CSC 415/415L. This course is cross listed with CENG 415/415L/515/515L.</notes>
@@ -368,7 +368,7 @@
     <credits>3</credits>
     <offered></offered>
     <description>An introduction to mechatronic systems and embedded systems for robotics. This course will cover the basics required for autonomous mobile robotics. The course will begin with a survey of existing systems and some background mathematics. Core course topics will include electromechanical components, electronics for motor control, sensors and instrumentation, mobile robotic kinematics and movement, microcontrollers, real time computing, and embedded system design and development. Course projects will include student teams building task oriented mobile robots with emphasis on the hardware development.</description>
-    <preReq>CSC 300 with a grade of "C" or better</preReq>
+    <preReq>CSC 300 with a grade of C or better</preReq>
     <preReq>MATH 321</preReq>
     <coReq>CSC 515L</coReq>
     <notes>Students enrolled in CSC 515/515L will be held to a higher standard than those enrolled in CSC 415/415L. This course is cross listed with CENG 415/415L/515/515L.</notes>
@@ -381,7 +381,7 @@
     <credits>1</credits>
     <offered></offered>
     <description>An introduction to mechatronic systems and embedded systems for robotics. This course will cover the basics required for autonomous mobile robotics. The course will begin with a survey of existing systems and some background mathematics. Core course topics will include electromechanical components, electronics for motor control, sensors and instrumentation, mobile robotic kinematics and movement, microcontrollers, real time computing, and embedded system design and development. Course projects will include student teams building task oriented mobile robots with emphasis on the hardware development.</description>
-    <preReq>CSC 300 with a grade of "C" or better</preReq>
+    <preReq>CSC 300 with a grade of C or better</preReq>
     <preReq>MATH 321</preReq>
     <coReq>CSC 515</coReq>
     <notes>Students enrolled in CSC 515/515L will be held to a higher standard than those enrolled in CSC 415/415L. This course is cross listed with CENG 415/415L/515/515L.</notes>
@@ -394,7 +394,7 @@
     <credits>3</credits>
     <offered></offered>
     <description>The course provides an introduction to the theory and concepts of computer security in cyberspace. The course will discuss security issues and policies with regard to cyber infrastructure including software development, data storage, operating systems, networks, multimedia processing as well as the use of encryption. Vulnerability assessment and implementation of secure computing systems will be explored in group projects.</description>
-    <preReq>CSC 300 with a grade of "C" or better</preReq>
+    <preReq>CSC 300 with a grade of C or better</preReq>
     <coReq></coReq>
     <notes>Students enrolled in CSC 526 will be held to a higher standard than those enrolled in CSC 426.</notes>
 </course>
@@ -406,7 +406,7 @@
     <credits>3</credits>
     <offered></offered>
     <description>The course provides an introduction to the theory and concepts of computer security in cyberspace. The course will discuss security issues and policies with regard to cyber infrastructure including software development, data storage, operating systems, networks, multimedia processing as well as the use of encryption. Vulnerability assessment and implementation of secure computing systems will be explored in group projects.</description>
-    <preReq>CSC 300 with a grade of "C" or better</preReq>
+    <preReq>CSC 300 with a grade of C or better</preReq>
     <coReq></coReq>
     <notes>Students enrolled in CSC 526 will be held to a higher standard than those enrolled in CSC 426.</notes>
 </course>
@@ -418,7 +418,7 @@
     <credits>3</credits>
     <offered></offered>
     <description>Graphical programming concepts. Display media and device characteristics. Point, line. and circle plotting. Coordinate systems and transformations. Polygon clipping and filling. Spline methods, hidden surface elimination, and shading.</description>
-    <preReq>CSC 300 with grade of "C" or better</preReq>
+    <preReq>CSC 300 with grade of C or better</preReq>
     <preReq>MATH 225</preReq>
     <coReq></coReq>
     <notes>Students enrolled in CSC 533 will be held to a higher standard than those enrolled in CSC 433.</notes>
@@ -431,7 +431,7 @@
     <credits>3</credits>
     <offered></offered>
     <description>Graphical programming concepts. Display media and device characteristics. Point, line. and circle plotting. Coordinate systems and transformations. Polygon clipping and filling. Spline methods, hidden surface elimination, and shading.</description>
-    <preReq>CSC 300 with grade of "C" or better</preReq>
+    <preReq>CSC 300 with grade of C or better</preReq>
     <preReq>MATH 225</preReq>
     <coReq></coReq>
     <notes>Students enrolled in CSC 533 will be held to a higher standard than those enrolled in CSC 433.</notes>
@@ -494,7 +494,7 @@
     <credits>3</credits>
     <offered></offered>
     <description>Introduction to digital image processing and computer vision, including image digitization and display, image enhancement and restoration, frequency domain techniques using the Fourier transform, image encoding, segmentation, and feature detection.</description>
-    <preReq>CSC 300 with a grade of "C" or better</preReq>
+    <preReq>CSC 300 with a grade of C or better</preReq>
     <preReq>MATH 125</preReq>
     <coReq></coReq>
     <notes>Students enrolled in CSC 542 will be held to a higher standard than those enrolled in CSC 442.</notes>
@@ -507,7 +507,7 @@
     <credits>3</credits>
     <offered></offered>
     <description>Introduction to digital image processing and computer vision, including image digitization and display, image enhancement and restoration, frequency domain techniques using the Fourier transform, image encoding, segmentation, and feature detection.</description>
-    <preReq>CSC 300 with a grade of "C" or better</preReq>
+    <preReq>CSC 300 with a grade of C or better</preReq>
     <preReq>MATH 125</preReq>
     <coReq></coReq>
     <notes>Students enrolled in CSC 542 will be held to a higher standard than those enrolled in CSC 442.</notes>
