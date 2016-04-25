@@ -16,5 +16,6 @@
     right: 20px;
     top: 100px;
     position: fixed;
+    z-index: 100;
 }
 
