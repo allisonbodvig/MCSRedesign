@@ -9,7 +9,7 @@
     <number>105</number>
     <credits>3</credits>
     <offered/>
-    <description>       Zachary</description>
+    <description>Overview of computer applications with emphasis on word processing, spreadsheets, database, presentation tools and internet-based applications.</description>
     <preReq/>
     <coReq/>
     <notes>        May not be used for credit toward an engineering or science degree (except Interdisciplinary Sciences and Associates of Arts).    </notes>
@@ -1065,4 +1065,4 @@
     <coReq/>
     <notes>Credit to be arranged; not to exceed 6 credits toward fulfillment of M.S. degree requirements. Open only to students pursing the M.S. thesis option.</notes>
 </course>
-<course isActive=""><name>Name is awwesome</name><preFix>CSC</preFix><number>101</number><credits>3</credits><offered></offered><description>            blah</description><notes>            </notes></course></csc_courses>
+</csc_courses>
