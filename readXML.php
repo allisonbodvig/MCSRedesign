@@ -265,12 +265,7 @@ function concatCourse($class)
     return $info;   
 }
 
-function updateCourse($course) 
-{
-
-}
-
-function addCourse($course)
+function getCourse($course)
 {
     $filename = "";
 
@@ -285,10 +280,54 @@ function addCourse($course)
 
     $xml = simplexml_load_file($filename) or die ("Error: Cannot create object\n");
 
+    foreach($xml->children() as $child)
+    {
+        if($child->number == $course["number"])
+        {
+            updateCourse($xml, $child, $course, $filename);
+            return;
+        }
+    }
 
-    #$file = fopen($filename, "w");
+    addCourse($xml, $course, $filename);
+}
 
+function updateCourse($xml, $child, $course, $filename) 
+{
+    $child->isActive = $course["isActive"];
+    $child->name = $course["name"];
+    $child->preFix = $course["preFix"];
+    $child->number = $course["number"];
+    $child->credits = $course["credits"];
+    $child->offered = $course["offered"];
+    $child->description = $course["description"];
     
+    foreach($course['preReq'] as $preReq)
+    {
+        $child->preReq = $preReq;
+    }
+
+    foreach($course['coReq'] as $coReq)
+    {
+        $child->coReq = $coReq;
+    }
+     
+    $child->notes = $course["notes"];
+    
+    $xml->asXML($filename);
+
+    if($course["preFix"] == "CSC")
+    {
+        echo "<script>window.location = 'csc-courses.php'</script>";
+    }
+    else
+    {
+        echo "<script>window.location = 'math-courses.php'</script>";
+    }
+}
+
+function addCourse($xml, $course, $filename)
+{
     $newChild = $xml->addChild('course');
     $newChild->addAttribute('isActive', $course["isActive"]);
     $newChild->addChild('name', $course["name"]);
@@ -297,8 +336,6 @@ function addCourse($course)
     $newChild->addChild('credits', $course["credits"]);
     $newChild->addChild('offered', $course["offered"]);
     $newChild->addChild('description', $course["description"]);
-     
-
     
     foreach($course['preReq'] as $preReq)
     {
@@ -313,18 +350,7 @@ function addCourse($course)
 
     $newChild->addChild('notes', $course["notes"]);
 
-    var_dump($xml);
-
-    #file_put_contents("csc.xml", $xml->asXML());
-    $xml->asXml('csc.xml');
-    
-    #fwrite($file, "blabadyblah");
-
-    $xml->saveXML($filename);
-
-    #fwrite($file, $xml->asXML());
-    #fclose($file);
-
+    $xml->asXML($filename);
     
     if($course["preFix"] == "CSC")
     {
@@ -337,6 +363,7 @@ function addCourse($course)
 
 }
 
+#addCourse("blah");
 
 //addAnchor("MATH 110");
 //$str = "MATH 321";

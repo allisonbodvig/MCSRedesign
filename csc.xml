@@ -1,9 +1,6 @@
-<?xml version = "1.0" encoding = "utf-8"?>
-
+<?xml version="1.0" encoding="utf-8"?>
 <!-- csc.xml - a document that lists the computer courses offered by the school -->
-
 <!DOCTYPE csc_courses SYSTEM "courseList.dtd">
-
 <csc_courses>
 
 <course isActive="yes">
@@ -11,22 +8,22 @@
     <preFix>CSC</preFix>
     <number>105</number>
     <credits>3</credits>
-    <offered></offered>
-    <description>Overview of computer applications with emphasis on word processing, spreadsheets, database, presentation tools and internet-based applications.</description>
-    <preReq></preReq>
-    <coReq></coReq>
-    <notes>May not be used for credit toward an engineering or science degree (except Interdisciplinary Sciences and Associates of Arts).</notes>
-</course>
+    <offered/>
+    <description>       Zachary</description>
+    <preReq/>
+    <coReq/>
+    <notes>        May not be used for credit toward an engineering or science degree (except Interdisciplinary Sciences and Associates of Arts).    </notes>
+<isActive>Yes</isActive></course>
 
 <course isActive="yes">
     <name>Survey of Computer Science and Mathematics</name>
     <preFix>CSC</preFix>
     <number>110</number>
     <credits>1</credits>
-    <offered></offered>
+    <offered/>
     <description>This is an introductory course for incoming freshman in Computer Science or Mathematics that provides a survey of the major areas in the computing profession along with ethical standards that are used.  When applicable, guest lectures will be arranged to illuminate different areas of study.</description>
-    <preReq></preReq>
-    <coReq></coReq>
+    <preReq/>
+    <coReq/>
     <notes>This course is cross-listed with MATH 110.</notes>
 </course>
 
@@ -35,12 +32,12 @@
     <preFix>CSC</preFix>
     <number>111</number>
     <credits>2</credits>
-    <offered></offered>
+    <offered/>
     <description>This is an introduction to computer programming for students with little or no programming experience.  Students will learn essential techniques on using a computer to solve problems and the fundamental constructs that are used in computer programs.</description>
     <preReq>MATH 102</preReq>
     <coReq>CSC 111L</coReq>
     <coReq>MATH 102</coReq>
-    <notes></notes>
+    <notes/>
 </course>
 
 <course isActive="yes">
@@ -48,12 +45,12 @@
     <preFix>CSC</preFix>
     <number>111L</number>
     <credits>0</credits>
-    <offered></offered>
+    <offered/>
     <description>This is an introduction to computer programming for students with little or no programming experience.  Students will learn essential techniques on using a computer to solve problems and the fundamental constructs that are used in computer programs.</description>
     <preReq>MATH 102</preReq>
     <coReq>CSC 111</coReq>
     <coReq>MATH 102</coReq>
-    <notes></notes>
+    <notes/>
 </course>
 
 <course isActive="yes">
@@ -61,12 +58,12 @@
     <preFix>CSC</preFix>
     <number>150</number>
     <credits>2</credits>
-    <offered></offered>
+    <offered/>
     <description>An introduction to computer programming. Focus on problem solving, algorithm development, design, and programming concepts. Topics include sequence, selection, repetition, functions, and arrays.</description>
     <preReq>MATH 123</preReq>
     <coReq>MATH 123</coReq>
     <coReq>CSC 150L</coReq>
-    <notes></notes>
+    <notes/>
 </course>
 
 <course isActive="yes">
@@ -74,12 +71,12 @@
     <preFix>CSC</preFix>
     <number>150L</number>
     <credits>1</credits>
-    <offered></offered>
+    <offered/>
     <description>An introduction to computer programming. Focus on problem solving, algorithm development, design, and programming concepts. Topics include sequence, selection, repetition, functions, and arrays.</description>
     <preReq>MATH 123</preReq>
     <coReq>MATH 123</coReq>
     <coReq>CSC 150</coReq>
-    <notes></notes>
+    <notes/>
 </course>
 
 <course isActive="yes">
@@ -87,25 +84,25 @@
     <preFix>CSC</preFix>
     <number>170</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>This course teaches engineering and science students how to write software to solve problems in their disciplines. The emphasis on mathematics, numerical methods, and development for embedded systems will prepare students to incorporate computer solutions into courses in their majors. Topics will include an overview of the software development process, development environments, algorithm development, control structures, internal and external storage, testing, and debugging. Additional topics may include programming robots and processing sensor data.</description>
     <preReq>MATH 123</preReq>
     <coReq>MATH 123</coReq>
     <coReq>CSC 170L</coReq>
-    <notes></notes>
+    <notes/>
 </course>
 
 <course isActive="yes">
-    <name>>Programming for Engineers and Scientists Lab</name>
+    <name>&gt;Programming for Engineers and Scientists Lab</name>
     <preFix>CSC</preFix>
     <number>170L</number>
     <credits>0</credits>
-    <offered></offered>
+    <offered/>
     <description>This course teaches engineering and science students how to write software to solve problems in their disciplines. The emphasis on mathematics, numerical methods, and development for embedded systems will prepare students to incorporate computer solutions into courses in their majors. Topics will include an overview of the software development process, development environments, algorithm development, control structures, internal and external storage, testing, and debugging. Additional topics may include programming robots and processing sensor data.</description>
     <preReq>MATH 123</preReq>
     <coReq>MATH 123</coReq>
     <coReq>CSC 170</coReq>
-    <notes></notes>
+    <notes/>
 </course>
 
 <course isActive="yes">
@@ -113,12 +110,12 @@
     <preFix>CSC</preFix>
     <number>210</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>This course focuses on techniques and methods for writing specifically for the internet. Topics will include designing and creating documents for the World Wide Web, design considerations, and publishing and maintaining websites. Students will use HTML web authoring software, and other software for web development.</description>
     <preReq>CSC 105</preReq>
     <preReq>Permission of Instructor</preReq>
-    <coReq></coReq>
-    <notes></notes>
+    <coReq/>
+    <notes/>
 </course>
 
 <course isActive="yes">
@@ -126,11 +123,11 @@
     <preFix>CSC</preFix>
     <number>250</number>
     <credits>4</credits>
-    <offered></offered>
+    <offered/>
     <description>Problem solving, algorithm design, standards of program style, debugging and testing. Extension of the control structures and data structures of the high-level language introduced in CSC 150/150L. Elementary data structures and basic algorithms that include sorting and searching. Topics include more advanced treatment of functions, data types such as arrays and structures, and files.</description>
     <preReq>CSC 150</preReq>
     <preReq>CSC 150L</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>Completed CSC 150/L completed with a minimum grade of C.</notes>
 </course>
 
@@ -139,14 +136,14 @@
     <preFix>CSC</preFix>
     <number>251</number>
     <credits>4</credits>
-    <offered></offered>
+    <offered/>
     <description>Selected topics from Boolean algebra, set theory, congruencies, equivalence relations, complexity, graph theory, combinatorics, induction, difference equations, and logic.</description>
     <preReq>MATH 123</preReq>
     <preReq>CSC 150/L</preReq>
     <preReq>CSC 170/L</preReq>
     <preReq>Permission of instructor.</preReq>
-    <coReq></coReq>
-    <notes></notes>
+    <coReq/>
+    <notes/>
 </course>
 
 <course isActive="yes">
@@ -154,10 +151,10 @@
     <preFix>CSC</preFix>
     <number>291</number>
     <credits>1-5</credits>
-    <offered></offered>
+    <offered/>
     <description>Includes directed study, problems, readings, directed readings, special problems and special projects. Students complete individualized plans of study which include significant one-on-one student-teacher involvement. The faculty member and students negotiate the details of the study plans. Meeting frequency depends on the requirements of the topic.</description>
     <preReq>Permission of instructor</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>May be repeated to a total of 5 credit hours.</notes>
 </course>
 
@@ -166,10 +163,10 @@
     <preFix>CSC</preFix>
     <number>292</number>
     <credits>1-5</credits>
-    <offered></offered>
+    <offered/>
     <description>Includes current topics, advanced topics and special topics. A course devoted to a particular issue in a specified field. Course content is not wholly included in the regular curriculum. Guest artists or experts may serve as instructors.</description>
-    <preReq></preReq>
-    <coReq></coReq>
+    <preReq/>
+    <coReq/>
     <notes>May be repeated to a total of 6 credit hours.</notes>
 </course>
 
@@ -178,11 +175,11 @@
     <preFix>CSC</preFix>
     <number>300</number>
     <credits>4</credits>
-    <offered></offered>
+    <offered/>
     <description>A systematic study of data structures and the accompanying algorithms used in computing problems; structure and use of storage; methods of representing data; techniques for implementing data structures; linear lists; stacks; queues; trees and tree traversal; linked lists; and other structures.</description>
     <preReq>CSC 250</preReq>
     <preReq>CSC 251</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>Completed CSC 250 with a minimum grade of C.</notes>
 </course>
 
@@ -191,7 +188,7 @@
     <preFix>CSC</preFix>
     <number>314</number>
     <credits>2</credits>
-    <offered></offered>
+    <offered/>
     <description>A thorough introduction to assembly language programming and processor architecture. A study of low-level programming techniques, and the layout of a typical computer. The student will gain insight into the memory layout, registers, run-time stack, and global data segment of a running program.</description>
     <preReq>CSC 250 with grade of C or better.</preReq>
     <coReq>CSC 314L</coReq>
@@ -203,7 +200,7 @@
     <preFix>CSC</preFix>
     <number>314L</number>
     <credits>1</credits>
-    <offered></offered>
+    <offered/>
     <description>A thorough introduction to assembly language programming and processor architecture. A study of low-level programming techniques, and the layout of a typical computer. The student will gain insight into the memory layout, registers, run-time stack, and global data segment of a running program.</description>
     <preReq>CSC 250 with grade of C or better.</preReq>
     <coReq>CSC 314</coReq>
@@ -215,12 +212,12 @@
     <preFix>CSC</preFix>
     <number>317</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>A course in computer organization with emphasis on the hierarchical structure of computer systems. Covers such topics as: components of computer systems and their configuration, design of basic digital circuits, the microprogram level, the conventional machine level, the operating system level, assembly language, addressing modes, interpreters/translators, computer arithmetic.</description>
     <preReq>CSC 314/L with a grade of C or better</preReq>
     <preReq>CSC 251</preReq>
-    <coReq></coReq>
-    <notes></notes>
+    <coReq/>
+    <notes/>
 </course>
 
 <course isActive="yes">
@@ -228,12 +225,12 @@
     <preFix>CSC</preFix>
     <number>372</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>Design and analysis of algorithms for numeric and nonnumeric problems, general problem-solving approaches, theory of computation. Topics will be selected from searching, sorting, graph algorithms, numerical algorithms, geometric algorithms, cryptography, and parallel algorithms.</description>
     <preReq>MATH 125</preReq>
     <preReq>CSC 300 with a minimum grade of C</preReq>
-    <coReq></coReq>
-    <notes></notes>
+    <coReq/>
+    <notes/>
 </course>
 
 <course isActive="yes">
@@ -241,10 +238,10 @@
     <preFix>CSC</preFix>
     <number>391</number>
     <credits>1-5</credits>
-    <offered></offered>
+    <offered/>
     <description>Includes directed study, problems, readings, directed readings, special problems and special projects. Students complete individualized plans of study which include significant one-on-one student-teacher involvement. The faculty member and students negotiate the details of the study plans. Meeting frequency depends on the requirements of the topic.</description>
     <preReq>Permission of instructor</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>May be repeated to a total of 5 credit hours.</notes>
 </course>
 
@@ -253,10 +250,10 @@
     <preFix>CSC</preFix>
     <number>392</number>
     <credits>1-5</credits>
-    <offered></offered>
+    <offered/>
     <description>Includes current topics, advanced topics and special topics. A course devoted to a particular issue in a specified field. Course content is not wholly included in the regular curriculum. Guest artists or experts may serve as instructors.</description>
-    <preReq></preReq>
-    <coReq></coReq>
+    <preReq/>
+    <coReq/>
     <notes>May be repeated to a total of 6 credit hours.</notes>
 </course>
 
@@ -265,10 +262,10 @@
     <preFix>CSC</preFix>
     <number>410</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>The fundamental ideas and issues involved in programming and using parallel computers. A survey of modern architectures and operating systems. Parallel programming applications in business, economic modeling, and science. The School of Mines emphasizes scientific applications.</description>
     <preReq>CSC 300 with grade of C or better</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>Students enrolled in CSC 510 will be held to a higher standard than those enrolled in CSC 410.</notes>
 </course>
 
@@ -277,10 +274,10 @@
     <preFix>CSC</preFix>
     <number>510</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>The fundamental ideas and issues involved in programming and using parallel computers. A survey of modern architectures and operating systems. Parallel programming applications in business, economic modeling, and science. The School of Mines emphasizes scientific applications.</description>
     <preReq>CSC 300 with grade of C or better</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>Students enrolled in CSC 510 will be held to a higher standard than those enrolled in CSC 410.</notes>
 </course>
 
@@ -289,12 +286,12 @@
     <preFix>CSC</preFix>
     <number>412</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>This course provides an introduction to cryptography and the mathematics behind current encryption algorithms. It covers classical cryptosystems, private-key cryptosystems (such as DES and AES), and public-key cryptosystems (such as RSA).</description>
     <preReq>MATH 413</preReq>
     <preReq>CSC 250</preReq>
     <preReq>Permission of instructor</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>Students enrolled in CSC 512 will be held to a higher standard than those enrolled in CSC 412.</notes>
 </course>
 
@@ -303,7 +300,7 @@
     <preFix>CSC</preFix>
     <number>512</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>This course provides an introduction to cryptography and the mathematics behind current encryption algorithms. It covers classical cryptosystems, private-key cryptosystems (such as DES and AES), and public-key cryptosystems (such as RSA).</description>
     <preReq>MATH 413</preReq>
     <preReq>CSC 250</preReq>
@@ -316,10 +313,10 @@
     <preFix>CSC</preFix>
     <number>414</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>Introductory course in computer vision. This course covers principles of image formation, local feature analysis, multi-view geometry, image warping and stitching, structure from motion, and visual recognition. We also touch upon related topics in signal and image processing including convolution, image pyramids, frequency domain analysis, and gradient-based analysis techniques.</description>
     <preReq>EE 312/L or CSC 300</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>Students enrolled in CSC 514 will be held to a higher standard than those enrolled in CSC 414. This course is cross-listed with CENG 414/514.</notes>
 </course>
 
@@ -328,10 +325,10 @@
     <preFix>CSC</preFix>
     <number>514</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>Introductory course in computer vision. This course covers principles of image formation, local feature analysis, multi-view geometry, image warping and stitching, structure from motion, and visual recognition. We also touch upon related topics in signal and image processing including convolution, image pyramids, frequency domain analysis, and gradient-based analysis techniques.</description>
     <preReq>EE 312/L or CSC 300</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>Students enrolled in CSC 514 will be held to a higher standard than those enrolled in CSC 414. This course is cross-listed with CENG 414/514.</notes>
 </course>
 
@@ -340,7 +337,7 @@
     <preFix>CSC</preFix>
     <number>415</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>An introduction to mechatronic systems and embedded systems for robotics. This course will cover the basics required for autonomous mobile robotics. The course will begin with a survey of existing systems and some background mathematics. Core course topics will include electromechanical components, electronics for motor control, sensors and instrumentation, mobile robotic kinematics and movement, microcontrollers, real time computing, and embedded system design and development. Course projects will include student teams building task oriented mobile robots with emphasis on the hardware development.</description>
     <preReq>CSC 300 with a grade of C or better</preReq>
     <preReq>MATH 321</preReq>
@@ -353,7 +350,7 @@
     <preFix>CSC</preFix>
     <number>415L</number>
     <credits>1</credits>
-    <offered></offered>
+    <offered/>
     <description>An introduction to mechatronic systems and embedded systems for robotics. This course will cover the basics required for autonomous mobile robotics. The course will begin with a survey of existing systems and some background mathematics. Core course topics will include electromechanical components, electronics for motor control, sensors and instrumentation, mobile robotic kinematics and movement, microcontrollers, real time computing, and embedded system design and development. Course projects will include student teams building task oriented mobile robots with emphasis on the hardware development.</description>
     <preReq>CSC 300 with a grade of C or better</preReq>
     <preReq>MATH 321</preReq>
@@ -366,7 +363,7 @@
     <preFix>CSC</preFix>
     <number>515</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>An introduction to mechatronic systems and embedded systems for robotics. This course will cover the basics required for autonomous mobile robotics. The course will begin with a survey of existing systems and some background mathematics. Core course topics will include electromechanical components, electronics for motor control, sensors and instrumentation, mobile robotic kinematics and movement, microcontrollers, real time computing, and embedded system design and development. Course projects will include student teams building task oriented mobile robots with emphasis on the hardware development.</description>
     <preReq>CSC 300 with a grade of C or better</preReq>
     <preReq>MATH 321</preReq>
@@ -379,7 +376,7 @@
     <preFix>CSC</preFix>
     <number>515L</number>
     <credits>1</credits>
-    <offered></offered>
+    <offered/>
     <description>An introduction to mechatronic systems and embedded systems for robotics. This course will cover the basics required for autonomous mobile robotics. The course will begin with a survey of existing systems and some background mathematics. Core course topics will include electromechanical components, electronics for motor control, sensors and instrumentation, mobile robotic kinematics and movement, microcontrollers, real time computing, and embedded system design and development. Course projects will include student teams building task oriented mobile robots with emphasis on the hardware development.</description>
     <preReq>CSC 300 with a grade of C or better</preReq>
     <preReq>MATH 321</preReq>
@@ -392,10 +389,10 @@
     <preFix>CSC</preFix>
     <number>426</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>The course provides an introduction to the theory and concepts of computer security in cyberspace. The course will discuss security issues and policies with regard to cyber infrastructure including software development, data storage, operating systems, networks, multimedia processing as well as the use of encryption. Vulnerability assessment and implementation of secure computing systems will be explored in group projects.</description>
     <preReq>CSC 300 with a grade of C or better</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>Students enrolled in CSC 526 will be held to a higher standard than those enrolled in CSC 426.</notes>
 </course>
 
@@ -404,10 +401,10 @@
     <preFix>CSC</preFix>
     <number>526</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>The course provides an introduction to the theory and concepts of computer security in cyberspace. The course will discuss security issues and policies with regard to cyber infrastructure including software development, data storage, operating systems, networks, multimedia processing as well as the use of encryption. Vulnerability assessment and implementation of secure computing systems will be explored in group projects.</description>
     <preReq>CSC 300 with a grade of C or better</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>Students enrolled in CSC 526 will be held to a higher standard than those enrolled in CSC 426.</notes>
 </course>
 
@@ -416,11 +413,11 @@
     <preFix>CSC</preFix>
     <number>433</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>Graphical programming concepts. Display media and device characteristics. Point, line. and circle plotting. Coordinate systems and transformations. Polygon clipping and filling. Spline methods, hidden surface elimination, and shading.</description>
     <preReq>CSC 300 with grade of C or better</preReq>
     <preReq>MATH 225</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>Students enrolled in CSC 533 will be held to a higher standard than those enrolled in CSC 433.</notes>
 </course>
 
@@ -429,11 +426,11 @@
     <preFix>CSC</preFix>
     <number>533</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>Graphical programming concepts. Display media and device characteristics. Point, line. and circle plotting. Coordinate systems and transformations. Polygon clipping and filling. Spline methods, hidden surface elimination, and shading.</description>
     <preReq>CSC 300 with grade of C or better</preReq>
     <preReq>MATH 225</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>Students enrolled in CSC 533 will be held to a higher standard than those enrolled in CSC 433.</notes>
 </course>
 
@@ -442,7 +439,7 @@
     <preFix>CSC</preFix>
     <number>440</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>Memory and disk systems, bus and I/O systems, parallel processing. Applications of digital systems in real-time processing.</description>
     <preReq>CSC 317</preReq>
     <preReq>Permission of instructor</preReq>
@@ -455,7 +452,7 @@
     <preFix>CSC</preFix>
     <number>440L</number>
     <credits>1</credits>
-    <offered></offered>
+    <offered/>
     <description>Memory and disk systems, bus and I/O systems, parallel processing. Applications of digital systems in real-time processing.</description>
     <preReq>CSC 317</preReq>
     <preReq>Permission of instructor</preReq>
@@ -468,10 +465,10 @@
     <preFix>CSC</preFix>
     <number>441</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>This course is the study of the principles and design of computer networks, their protocols, and application programs. The course has equal emphasis on practical experience as well as theoretical foundations. The course focuses on understanding the fundamental concepts in design and implementation of computer communication networks, particularly on analysis and development of the software architecture of the protocol stack, and network programming. The topics include layered network architectures, network programming interfaces (e.g., sockets), TCP/IP networking, packet switching, network routing, rate and congestion control, Quality-of-Service, wireless communications, and fundamentals of network security.</description>
     <preReq>CSC 300</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>Students enrolled in CSC 541 will be held to a higher standard than those enrolled in CSC 441.</notes>
 </course>
 
@@ -480,10 +477,10 @@
     <preFix>CSC</preFix>
     <number>541</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>This course is the study of the principles and design of computer networks, their protocols, and application programs. The course has equal emphasis on practical experience as well as theoretical foundations. The course focuses on understanding the fundamental concepts in design and implementation of computer communication networks, particularly on analysis and development of the software architecture of the protocol stack, and network programming. The topics include layered network architectures, network programming interfaces (e.g., sockets), TCP/IP networking, packet switching, network routing, rate and congestion control, Quality-of-Service, wireless communications, and fundamentals of network security.</description>
     <preReq>CSC 300</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>Students enrolled in CSC 541 will be held to a higher standard than those enrolled in CSC 441.</notes>
 </course>
 
@@ -492,11 +489,11 @@
     <preFix>CSC</preFix>
     <number>442</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>Introduction to digital image processing and computer vision, including image digitization and display, image enhancement and restoration, frequency domain techniques using the Fourier transform, image encoding, segmentation, and feature detection.</description>
     <preReq>CSC 300 with a grade of C or better</preReq>
     <preReq>MATH 125</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>Students enrolled in CSC 542 will be held to a higher standard than those enrolled in CSC 442.</notes>
 </course>
 
@@ -505,11 +502,11 @@
     <preFix>CSC</preFix>
     <number>542</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>Introduction to digital image processing and computer vision, including image digitization and display, image enhancement and restoration, frequency domain techniques using the Fourier transform, image encoding, segmentation, and feature detection.</description>
     <preReq>CSC 300 with a grade of C or better</preReq>
     <preReq>MATH 125</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>Students enrolled in CSC 542 will be held to a higher standard than those enrolled in CSC 442.</notes>
 </course>
 
@@ -518,10 +515,10 @@
     <preFix>CSC</preFix>
     <number>445</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>Introduction to a series of models for computation and their relationship to formal languages that are useful in the definition of programming languages along with a look at the theoretical limits of computers. Topics include finite and pushdown automata, Turing machines, grammars, decidability and computational complexity.</description>
     <preReq>CSC 251</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>Students enrolled in CSC 545 will be held to a higher standard than those enrolled in CSC 445.</notes>
 </course>
 
@@ -530,10 +527,10 @@
     <preFix>CSC</preFix>
     <number>545</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>Introduction to a series of models for computation and their relationship to formal languages that are useful in the definition of programming languages along with a look at the theoretical limits of computers. Topics include finite and pushdown automata, Turing machines, grammars, decidability and computational complexity</description>
     <preReq>CSC 251</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>Students enrolled in CSC 545 will be held to a higher standard than those enrolled in CSC 445.</notes>
 </course>
 
@@ -542,10 +539,10 @@
     <preFix>CSC</preFix>
     <number>447</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>Concepts in artificial intelligence: programming in languages such as Prolog or LISP; knowledge representation; search algorithms</description>
     <preReq>CSC 300 with grade of “C” or better.</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>Students enrolled in CSC 547 will be held to a higher standard than those enrolled in CSC 447.</notes>
 </course>
 
@@ -554,10 +551,10 @@
     <preFix>CSC</preFix>
     <number>547</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>Concepts in artificial intelligence: programming in languages such as Prolog or LISP; knowledge representation; search algorithms</description>
     <preReq>CSC 300 with grade of “C” or better.</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>Students enrolled in CSC 547 will be held to a higher standard than those enrolled in CSC 447.</notes>
 </course>
 
@@ -566,10 +563,10 @@
     <preFix>CSC</preFix>
     <number>448</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>A systematic study of the theory and algorithms that constitute machine learning. It covers learning based on examples including genetic algorithms, case-based reasoning, decision trees, and Bayesian methods</description>
     <preReq>CSC 300 with a grade of “C” or better.</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>Students enrolled in CSC 548 will be held to a higher standard than those enrolled in CSC 448.</notes>
 </course>
 
@@ -578,10 +575,10 @@
     <preFix>CSC</preFix>
     <number>548</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>A systematic study of the theory and algorithms that constitute machine learning. It covers learning based on examples including genetic algorithms, case-based reasoning, decision trees, and Bayesian methods</description>
     <preReq>CSC 300 with a grade of “C” or better.</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>Students enrolled in CSC 548 will be held to a higher standard than those enrolled in CSC 448.</notes>
 </course>
 
@@ -590,13 +587,13 @@
     <preFix>CSC</preFix>
     <number>449</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>Introduction to pattern recognition algorithms. Topics covered include statistical pattern recognition, machine learning, and neural networks</description>
     <preReq>CSC 300 with a grade of “C” or better</preReq>
     <preReq>MATH 225</preReq>
     <preReq>MATH 381 or MATH 442</preReq>
     <preReq>permission of instructor</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>Students enrolled in CSC 549 will be held to a higher standard than those enrolled in CSC 449.</notes>
 </course>
 
@@ -605,13 +602,13 @@
     <preFix>CSC</preFix>
     <number>549</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>Introduction to pattern recognition algorithms. Topics covered include statistical pattern recognition, machine learning, and neural networks</description>
     <preReq>CSC 300 with a grade of “C” or better</preReq>
     <preReq>MATH 225</preReq>
     <preReq>MATH 381 or MATH 442</preReq>
     <preReq>permission of instructor</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>Students enrolled in CSC 549 will be held to a higher standard than those enrolled in CSC 449.</notes>
 </course>
 
@@ -620,7 +617,7 @@
     <preFix>CSC</preFix>
     <number>456</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>A study of the functions and structures associated with operating systems with respect to process management, memory management, auxiliary storage management, and processor management. Topics include concurrent and distributed computing, deadlock, real and virtual memory, job and processor scheduling, security and protection</description>
     <preReq>CSC 314/L or CENG 314/L</preReq>
     <preReq>a minimum grade of “C” in CSC 300</preReq>
@@ -633,7 +630,7 @@
     <preFix>CSC</preFix>
     <number>456L</number>
     <credits>1</credits>
-    <offered></offered>
+    <offered/>
     <description>A study of the functions and structures associated with operating systems with respect to process management, memory management, auxiliary storage management, and processor management. Topics include concurrent and distributed computing, deadlock, real and virtual memory, job and processor scheduling, security and protection</description>
     <preReq>CSC 314/L or CENG 314/L</preReq>
     <preReq>a minimum grade of “C” in CSC 300</preReq>
@@ -646,11 +643,11 @@
     <preFix>CSC</preFix>
     <number>461</number>
     <credits>4</credits>
-    <offered></offered>
+    <offered/>
     <description>This course consists of two parts. The first part introduces how programming languages are designed, including an introduction to the concepts of parsing and compiling. Issues related to implementation such as type checking, binding, and memory management are discussed. Secondly, the course will survey the spectrum of programming languages paradigms, including traditional imperative, object oriented, functional, and logic languages</description>
     <preReq>CSC 300 with a minimum grade of “C”</preReq>
-    <coReq></coReq>
-    <notes></notes>
+    <coReq/>
+    <notes/>
 </course>
 
 <course isActive="yes">
@@ -658,7 +655,7 @@
     <preFix>CSC</preFix>
     <number>462</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>Introduction to the theory and practice of programming graphical user interfaces. Topics will include GUI design and the fundamentals of GUI programming for desktop, Web, and mobile device applications</description>
     <preReq>CSC 461</preReq>
     <coReq>CSC 462L</coReq>
@@ -670,7 +667,7 @@
     <preFix>CSC</preFix>
     <number>462L</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>Introduction to the theory and practice of programming graphical user interfaces. Topics will include GUI design and the fundamentals of GUI programming for desktop, Web, and mobile device applications</description>
     <preReq>CSC 461</preReq>
     <coReq>CSC 462</coReq>
@@ -682,7 +679,7 @@
     <preFix>CSC</preFix>
     <number>562</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>Introduction to the theory and practice of programming graphical user interfaces. Topics will include GUI design and the fundamentals of GUI programming for desktop, Web, and mobile device applications</description>
     <preReq>CSC 461</preReq>
     <coReq>CSC 562L</coReq>
@@ -694,7 +691,7 @@
     <preFix>CSC</preFix>
     <number>562L</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>Introduction to the theory and practice of programming graphical user interfaces. Topics will include GUI design and the fundamentals of GUI programming for desktop, Web, and mobile device applications</description>
     <preReq>CSC 461</preReq>
     <coReq>CSC 562</coReq>
@@ -706,10 +703,10 @@
     <preFix>CSC</preFix>
     <number>463</number>
     <credits>4</credits>
-    <offered></offered>
+    <offered/>
     <description>A study of the principles of data communications, computer networks, and open systems, following the outline provided by the ISO/OSI model</description>
     <preReq>CSC 250</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>Students enrolled in CSC 563 will be held to a higher standard than those enrolled in CSC 463.</notes>
 </course>
 
@@ -718,10 +715,10 @@
     <preFix>CSC</preFix>
     <number>563</number>
     <credits>4</credits>
-    <offered></offered>
+    <offered/>
     <description> A study of the principles of data communications, computer networks, and open systems, following the outline provided by the ISO/OSI model.</description>
     <preReq>CSC 250</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>Students enrolled in CSC 563 will be held to a higher standard than those enrolled in CSC 463.</notes>
 </course>
 
@@ -730,12 +727,12 @@
     <preFix>CSC</preFix>
     <number>464</number>
     <credits>2</credits>
-    <offered></offered>
+    <offered/>
     <description> This is a team-based project-design course. This course will focus on the design process and culminate with the faculty approval of design projects. Typical topics included are the development of a design document; identification of customer needs; development of specifications; consideration of alternate designs using a decision matrix; project management techniques; and legal, global, and ethical issues.</description>
     <preReq>CSC 470 </preReq>
     <preReq>CSC 484</preReq>
-    <coReq></coReq>
-    <notes></notes>
+    <coReq/>
+    <notes/>
 </course>
 
 <course isActive="yes">
@@ -743,12 +740,12 @@
     <preFix>CSC</preFix>
     <number>465</number>
     <credits>2</credits>
-    <offered></offered>
+    <offered/>
     <description> This course is a continuation of CSC 464. The student will complete the project approved in CSC 464. It will require that the students implement the design projects in a simulated industrial environment. Specific requirements may include detailed laboratory notebook, periodic written and oral progress reports, and a written and oral presentation of a final project report.</description>
     <preReq>CSC 464</preReq>
     <preReq>permission of instructor</preReq>
-    <coReq></coReq>
-    <notes></notes>
+    <coReq/>
+    <notes/>
 </course>
 
 <course isActive="yes">
@@ -756,7 +753,7 @@
     <preFix>CSC</preFix>
     <number>468</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description> Introduction to the theory and practice of programming graphical user interfaces. Topics will include GUI design and the fundamentals of GUI programming for desktop, Web, and mobile device applications.</description>
     <preReq>CSC 461</preReq>
     <coReq>CSC 468L</coReq>
@@ -768,7 +765,7 @@
     <preFix>CSC</preFix>
     <number>468L</number>
     <credits>0</credits>
-    <offered></offered>
+    <offered/>
     <description> Introduction to the theory and practice of programming graphical user interfaces. Topics will include GUI design and the fundamentals of GUI programming for desktop, Web, and mobile device applications.</description>
     <preReq>CSC 461</preReq>
     <coReq>CSC 468</coReq>
@@ -780,7 +777,7 @@
     <preFix>CSC</preFix>
     <number>568</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description> Introduction to the theory and practice of programming graphical user interfaces. Topics will include GUI design and the fundamentals of GUI programming for desktop, Web, and mobile device applications.</description>
     <preReq>CSC 461</preReq>
     <coReq>CSC 568L</coReq>
@@ -792,7 +789,7 @@
     <preFix>CSC</preFix>
     <number>568L</number>
     <credits>0</credits>
-    <offered></offered>
+    <offered/>
     <description> Introduction to the theory and practice of programming graphical user interfaces. Topics will include GUI design and the fundamentals of GUI programming for desktop, Web, and mobile device applications.</description>
     <preReq>CSC 461</preReq>
     <coReq>CSC 568</coReq>
@@ -804,11 +801,11 @@
     <preFix>CSC</preFix>
     <number>470</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description> An introduction to the software engineering process, including lifecycle phases, problem analysis, specification, project estimation and resource estimation, design, implementation, testing/maintenance, and project management. In particular, software validation and verification as well as scheduling and schedule assessment techniques will be discussed.</description>
     <preReq>CSC 484</preReq>
     <coReq>CSC484</coReq>
-    <notes></notes>
+    <notes/>
 </course>
 
 <course isActive="yes">
@@ -816,7 +813,7 @@
     <preFix>CSC</preFix>
     <number>476</number>
     <credits>2</credits>
-    <offered></offered>
+    <offered/>
     <description> This course introduces students to the major components of mobile application development. Topics will include an overview of the market, mobile development environments, designing the user interface/user experience, lifecycle considerations, MVC patterns, power, storage, and performance considerations, persistent data, location, and web services. Students will design and create applications on at least one of the dominant mobile platforms.</description>
     <preReq>CSC 468</preReq>
     <preReq>CSC 468L</preReq>
@@ -832,7 +829,7 @@
     <preFix>CSC</preFix>
     <number>476L</number>
     <credits>1</credits>
-    <offered></offered>
+    <offered/>
     <description> This course introduces students to the major components of mobile application development. Topics will include an overview of the market, mobile development environments, designing the user interface/user experience, lifecycle considerations, MVC patterns, power, storage, and performance considerations, persistent data, location, and web services. Students will design and create applications on at least one of the dominant mobile platforms. </description>
     <preReq>CSC 468</preReq>
     <preReq>CSC 468L</preReq>
@@ -848,7 +845,7 @@
     <preFix>CSC</preFix>
     <number>576</number>
     <credits>2</credits>
-    <offered></offered>
+    <offered/>
     <description> This course introduces students to the major components of mobile application development. Topics will include an overview of the market, mobile development environments, designing the user interface/user experience, lifecycle considerations, MVC patterns, power, storage, and performance considerations, persistent data, location, and web services. Students will design and create applications on at least one of the dominant mobile platforms. </description>
     <preReq>CSC 468</preReq>
     <preReq>CSC 468L</preReq>
@@ -864,7 +861,7 @@
     <preFix>CSC</preFix>
     <number>576L</number>
     <credits>1</credits>
-    <offered></offered>
+    <offered/>
     <description> This course introduces students to the major components of mobile application development. Topics will include an overview of the market, mobile development environments, designing the user interface/user experience, lifecycle considerations, MVC patterns, power, storage, and performance considerations, persistent data, location, and web services. Students will design and create applications on at least one of the dominant mobile platforms. </description>
     <preReq>CSC 468</preReq>
     <preReq>CSC 468L</preReq>
@@ -880,11 +877,11 @@
     <preFix>CSC</preFix>
     <number>484</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description> The study of formalized database design. This course will focus on relational model design and the use of SQL. Students will use a modern relational database to implement designs and learn the basics of data management.</description>
     <preReq>CSC 300 with a minimum grade of “C”.</preReq>
-    <coReq></coReq>
-    <notes></notes>
+    <coReq/>
+    <notes/>
 </course>
 
 <course isActive="yes">
@@ -892,10 +889,10 @@
     <preFix>CSC</preFix>
     <number>491</number>
     <credits>1-3</credits>
-    <offered></offered>
+    <offered/>
     <description> Includes directed study, problems, readings, directed readings, special problems and special projects. Students complete individualized plans of study which include significant one-on-one student-teacher involvement. The faculty member and students negotiate the details of the study plans. Meeting frequency depends on the requirements of the topic.</description>
     <preReq>Permission of instructor.</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>May be repeated for a total of 5 credit hours.</notes>
 </course>
 
@@ -904,10 +901,10 @@
     <preFix>CSC</preFix>
     <number>492</number>
     <credits>1-3</credits>
-    <offered></offered>
+    <offered/>
     <description>Includes current topics, advanced topics and special topics. A course devoted to a particular issue in a specified field. Course content is not wholly included in the regular curriculum. Guest artists or experts may serve as instructors.</description>
-    <preReq></preReq>
-    <coReq></coReq>
+    <preReq/>
+    <coReq/>
     <notes>May be repeated to a total of 6 credit hours.</notes>
 </course>
 
@@ -916,10 +913,10 @@
     <preFix>CSC</preFix>
     <number>498</number>
     <credits>to be arranged</credits>
-    <offered></offered>
+    <offered/>
     <description> Includes senior project and capstone experience. Independent research problems/projects or scholarship activities. The plan of study is negotiated by the faculty member and the student. Contact between the two may be extensive and intensive. Does not include research courses which are theoretical.</description>
     <preReq>Permission of instructor.</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes> Credit to be arranged; not to exceed 6 credits toward fulfillment of B.S. degree requirements. May be repeated for a total of 6 credit hours.</notes>
 </course>
 
@@ -928,10 +925,10 @@
     <preFix>CSC</preFix>
     <number>691</number>
     <credits>1-3</credits>
-    <offered></offered>
+    <offered/>
     <description> Includes directed study, problems, readings, directed readings, special problems, and special projects.  Students complete individualized plans of study which include significant one-on-one student-teacher involvement.  The faculty member and students negotiate the details of the study plans.  Meetings depending upon the requirements of the topic.</description>
     <preReq> Permission of instructor.</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>May be repeated to a total of 5 credit hours.  Students should have obtained permission of an instructor in the Department of Mathematics and Computer Science prior to registering for this course.</notes>
 </course>
 
@@ -940,10 +937,10 @@
     <preFix>CSC</preFix>
     <number>692</number>
     <credits>1-3</credits>
-    <offered></offered>
+    <offered/>
     <description> Includes current topics, advanced topics and special topics. A course devoted to a particular issue in a specified field. Course content is not wholly included in the regular curriculum. Guest artists or experts may serve as instructors.</description>
-    <preReq></preReq>
-    <coReq></coReq>
+    <preReq/>
+    <coReq/>
     <notes>May be repeated to a total of 6 credit hours.  Students should have obtained permission of instructor in the Department of Mathematics and Computer Science prior to registering for this course.</notes>
 </course>
 
@@ -952,11 +949,11 @@
     <preFix>CSC</preFix>
     <number>752</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description> Low-level processing for extraction of intrinsic image features (edges, range, surface orientation, motion and optical flow, texture), relaxation methods, image segmentation, pattern recognition, geometric and relational structures, knowledge representation, and neural network approaches.</description>
     <preReq> Permission of instructor.</preReq>
-    <coReq></coReq>
-    <notes></notes>
+    <coReq/>
+    <notes/>
 </course>
 
 <course isActive="yes">
@@ -964,10 +961,10 @@
     <preFix>CSC</preFix>
     <number>761</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description>The objective of this course is to provide students with a background in advanced artificial intelligence problem solving methods. Topics covered include: Expert systems, fuzzy logic and fuzzy expert systems, genetic algorithms, case-based reasoning, and current research work on new areas of problem solving.</description>
     <preReq>CSC 300</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>Permission of instructor.</notes>
 </course>
 
@@ -976,11 +973,11 @@
     <preFix>CSC</preFix>
     <number>762</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description> This course presents a survey of the architecture and algorithms of neural networks. Topics covered include perceptrons, competitive learning, multi-layer networks, back propagation, and selected topics from pattern recognition.</description>
     <preReq>CSC 300 or permission of instructor.</preReq>
-    <coReq></coReq>
-    <notes></notes>
+    <coReq/>
+    <notes/>
 </course>
 
 <course isActive="yes">
@@ -988,13 +985,13 @@
     <preFix>CSC</preFix>
     <number>772</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description> Advanced topics in operating systems design for multiprocessing and distributed systems. Topics will include areas such as methods of interprocess communication, reliability, maintainability, security, and large-scale design considerations.</description>
     <preReq> CSC 456</preReq>
     <preReq> CSC 456L</preReq>
     <preReq> permission of instructor.</preReq>
-    <coReq></coReq>
-    <notes></notes>
+    <coReq/>
+    <notes/>
 </course>
 
 <course isActive="yes">
@@ -1002,11 +999,11 @@
     <preFix>CSC</preFix>
     <number>784</number>
     <credits>3</credits>
-    <offered></offered>
+    <offered/>
     <description> This course will include an overview of the relational and entity relationship (E-R) models. It will cover database design, advanced data models, emerging trends in the database field, including data warehouse, data mining, and distributed and parallel databases. Oracle database design tools and programming will be taught.</description>
     <preReq>CSC 300 with a grade of “C” or better; or permission of instructor.</preReq>
-    <coReq></coReq>
-    <notes></notes>
+    <coReq/>
+    <notes/>
 </course>
 
 <course isActive="yes">
@@ -1014,10 +1011,10 @@
     <preFix>CSC</preFix>
     <number>788</number>
     <credits>Credits to be arranged</credits>
-    <offered></offered>
+    <offered/>
     <description> Independent research problems/projects that lead to research or design paper, but not to a thesis. The plan of study is negotiated by the faculty member and the candidate. Contact between the two may be extensive and intensive. Does not include research courses which are theoretical. Oral defense of the report and findings are required. </description>
-    <preReq></preReq>
-    <coReq></coReq>
+    <preReq/>
+    <coReq/>
     <notes>Credit to be arranged; not to exceed 3 credits toward fulfillment of M.S. degree requirements. Open only to students pursuing the M.S. non-thesis option.</notes>
 </course>
 
@@ -1026,10 +1023,10 @@
     <preFix>CSC</preFix>
     <number>790</number>
     <credits>1</credits>
-    <offered></offered>
+    <offered/>
     <description> </description>highly focused and topical course. The format includes student presentations and discussions of reports based on literature, practices, problems, and research. Seminars may be conducted over electronic media such as Internet and are at the upper division graduate levels.
-    <preReq></preReq>
-    <coReq></coReq>
+    <preReq/>
+    <coReq/>
     <notes> May not be repeated for degree credit.</notes>
 </course>
 
@@ -1038,10 +1035,10 @@
     <preFix>CSC</preFix>
     <number>791</number>
     <credits>1-5</credits>
-    <offered></offered>
+    <offered/>
     <description> Includes directed study, problems, readings, directed readings, special problems, and special projects. Students complete individualized plans of study which include significant one-on-one student-teacher involvement. The faculty member and students negotiate the details of the study plans. Meetings depending upon the requirements of the topic.</description>
     <preReq>Permission of instructor.</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>May be repeated to a total of 5 credit hours.  Students should have obtained the permission of the instructor in the Department of Mathematics and Computer Science prior to registering for this course.</notes>
 </course>
 
@@ -1050,10 +1047,10 @@
     <preFix>CSC</preFix>
     <number>792</number>
     <credits>1-5</credits>
-    <offered></offered>
+    <offered/>
     <description> Includes current topics, advanced topics and special topics. A course devoted to a particular issue in a specified field. Course content is not wholly included in the regular curriculum. Guest artists or experts may serve as instructors.</description>
     <preReq>Permission of instructor.</preReq>
-    <coReq></coReq>
+    <coReq/>
     <notes>May be repeated to a total of 6 credit hours.  Students should have obtained permission of an instructor in the Department of Mathematics and Computer Science prior to registering for this course.</notes>
 </course>
 
@@ -1062,10 +1059,10 @@
     <preFix>CSC</preFix>
     <number>798</number>
     <credits>Credits to be arranged</credits>
-    <offered></offered>
+    <offered/>
     <description> A formal treatise presenting the results of study submitted in partial fulfillment of the requirements for the applicable degree. The process requires extensive and intensive one-on-one interaction between the candidate and professor with more limited interaction between and among the candidate and other members of the committee.</description>
-    <preReq></preReq>
-    <coReq></coReq>
+    <preReq/>
+    <coReq/>
     <notes>Credit to be arranged; not to exceed 6 credits toward fulfillment of M.S. degree requirements. Open only to students pursing the M.S. thesis option.</notes>
 </course>
-</csc_courses>
+<course isActive=""><name>Name is awwesome</name><preFix>CSC</preFix><number>101</number><credits>3</credits><offered></offered><description>            blah</description><notes>            </notes></course></csc_courses>

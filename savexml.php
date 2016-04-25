@@ -70,7 +70,7 @@ if(isset($_POST['save']))
     $class["coReq"] = $co;
 
     $class["notes"] = $tmp["notes"];
-    addCourse($class);
+    getCourse($class);
     
 }
 
