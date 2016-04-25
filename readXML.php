@@ -265,6 +265,45 @@ function concatCourse($class)
     return $info;   
 }
 
+function updateCourse($course) 
+{
+
+}
+
+function addCourse($course)
+{
+    $filename = "";
+
+    if($course["preFix"] == "CSC")
+    {
+        $filename = "csc.xml";
+    }
+    else if($course["preFix"] == "MATH")
+    {
+        $filename = "math.xml";
+    }
+
+    $xml = simplexml_load_file($filename) or die ("Error: Cannot create object\n");
+
+    $file = fopen($filename, "w");
+
+    $newChild = $xml->addChild('course');
+    $newChild->addAttribute('isActive', "yes");
+    $newChild->addChild('name', "Zachary class");
+    $newChild->addChild('preFix', "life101");
+    $newChild->addChild('number', "123");
+    $newChild->addChild('credits', "2");
+    $newChild->addChild('offered', "spring");
+    $newChild->addChild('description', "a fun class to learn everything");
+    $newChild->addChild('preReq', "yesterday");
+    $newChild->addChild('coReq', "nope");
+    $newChild->addChild('notes', "Awesome class. Instructor is amazing");
+
+    fwrite($file, $xml->asXML());
+    fclose($file);
+}
+
+
 //addAnchor("MATH 110");
 //$str = "MATH 321";
 

@@ -14,6 +14,7 @@
 
 <?php
   session_start();
+  include_once("readXML.php");
 
   $loggedIn = false;
 
