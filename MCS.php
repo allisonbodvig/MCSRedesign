@@ -61,61 +61,61 @@
         <li>Home</li>
         <li> Courses
           <ul>
-            <li>
-              <a href="csc-courses.php">Computer Science Courses</a>
-            </li>
-            <li>
-              <a href="math-courses.php">Math Courses</a>
-            </li>
+            <a href="csc-courses.php">
+              <li>Computer Science Courses</li>
+            </a>
+            <a href="math-courses.php">
+              <li>Math Courses</li>
+            </a>
           </ul>
         </li>
         <li> Web Pages
           <ul>
-            <li>
-              <a href="empty-redirect.html">Faculty</a>
-            </li>
-            <li>
-              <a href="empty-redirect.html">Students</a>
-            </li>
-            <li>
-              <a href="empty-redirect.html">Alumni</a>
-            </li>
+            <a href="empty-redirect.html">
+              <li>Faculty</li>
+            </a>
+            <a href="empty-redirect.html">
+              <li>Students</li>
+            </a>
+            <a href="empty-redirect.html">
+              <li>Alumni</li>
+            </a>
           </ul>
         </li>
         <li> Checklist
           <ul>
-            <li>
-              <a href="empty-redirect.html">CS Checklist</a>
-            </li>
-            <li>
-              <a href="empty-redirect.html">CS Flowchart</a>
-            </li>
-            <li>
-              <a href="empty-redirect.html">CS Course Scheduler</a>
-            </li>
+            <a href="empty-redirect.html">
+              <li>CS Checklist</li>
+            </a>
+            <a href="empty-redirect.html">
+              <li>CS Flowchart</li>
+            </a>
+            <a href="empty-redirect.html">
+              <li>CS Course Scheduler</li>
+            </a>
           </ul>
         </li>
         <li> Research
           <ul>
-            <li>
-              <a href="empty-redirect.html">MCS Colloquium</a>
-            </li>
-            <li>
-              <a href="empty-redirect.html">MCS Research</a>
-            </li>
+            <a href="empty-redirect.html">
+              <li>MCS Colloquium</li>
+            </a>
+            <a href="empty-redirect.html">
+              <li>MCS Research</li>
+            </a>
           </ul>
         </li>
         <li> Resources
           <ul>
-            <li>
-              <a href="empty-redirect.html">Student Organizations</a>
-            </li>
-            <li>
-              <a href="empty-redirect.html">Tutorials and Resources</a>
-            </li>
-            <li>
-              <a href="empty-redirect.html">Policy, Forms, Coding Standards</a>
-            </li>
+            <a href="empty-redirect.html">
+              <li>Student Organizations</li>
+            </a>
+            <a href="empty-redirect.html">
+              <li>Tutorials and Resources</li>
+            </a>
+            <a href="empty-redirect.html">
+              <li>Policy, Forms, Coding Standards</li>
+            </a>
           </ul>
         </li>
         <a href="empty-redirect.html">
