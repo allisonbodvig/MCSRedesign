@@ -8,11 +8,11 @@
     <preFix>CSC</preFix>
     <number>105</number>
     <credits>3</credits>
-    <offered/>
-    <description>Overview of computer applications with emphasis on word processing, spreadsheets, database, presentation tools and internet-based applications.</description>
+    <offered></offered>
+    <description>                Overview of computer applications with emphasis on word processing, spreadsheets, database, presentation tools and internet-based applications.        </description>
     <preReq/>
     <coReq/>
-    <notes>        May not be used for credit toward an engineering or science degree (except Interdisciplinary Sciences and Associates of Arts).    </notes>
+    <notes>                        May not be used for credit toward an engineering or science degree (except Interdisciplinary Sciences and Associates of Arts).            </notes>
 <isActive>Yes</isActive></course>
 
 <course isActive="yes">

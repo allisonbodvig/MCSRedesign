@@ -319,14 +319,14 @@ function updateCourse($xml, $child, $course, $filename)
     
     $xml->asXML($filename);
 
-    /*if($course["preFix"] == "CSC")
+    if($course["preFix"] == "CSC")
     {
         echo "<script>window.location = 'csc-courses.php'</script>";
     }
     else
     {
         echo "<script>window.location = 'math-courses.php'</script>";
-    }*/
+    }
 }
 
 function addCourse($xml, $course, $filename)
