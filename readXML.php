@@ -36,7 +36,7 @@ function readXML($filename)
 
 		$tmp["preFix"] = (string)$class->preFix;
 
-		$tmp["number"] = (int)$class->number;
+		$tmp["number"] = (string)$class->number;
 
 		$tmp["credits"] = (string)$class->credits;
 
@@ -87,24 +87,24 @@ function addAnchor ( $str, $preFix )
     if ( (strpos($str, "MATH") !== false) and ("MATH" == $preFix ) )
     {
         //finds course number
-        preg_match('!\d+!', $str, $matches);
+        preg_match('/\d+[L]*/', $str, $matches);
         $tag = "#MATH" . $matches[0];   
     //csc page and csc req 
     } else if ( ( strpos( $str, "CSC" ) !== false ) and ("CSC" == $preFix ) )
     {
         //finds course number
-        preg_match('!\d+!', $str, $matches);
+        preg_match('/\d+[L]*/', $str, $matches);
         $tag = "#CSC" . $matches[0];
     //math page and csc req    
     } else if ( ( strpos( $str, "CSC" ) !== false ) and ("MATH" == $preFix ) )
     {
-        preg_match('!\d+!', $str, $matches);
+        preg_match('/\d+[L]*/', $str, $matches);
         $tag = "csc-courses.php#CSC" .$matches[0] ;
         
     //csc page and math req
     } else if ( ( strpos( $str, "MATH" ) !== false ) and ("CSC" == $preFix ) )
     {
-        preg_match('!\d+!', $str, $matches);
+        preg_match('/\d+[L]*/', $str, $matches);
         $tag = "math-courses.php#MATH" .$matches[0] ;
     }
     
@@ -120,11 +120,11 @@ function createLink( $str )
 
     if ( strpos ($str, "MATH") !== false )
     {
-        preg_match('!\d+!', $str, $matches);
+        preg_match('/\d+[L]*/', $str, $matches);
         $tag = "MATH " . $matches[0];
     } else if ( strpos ($str, "CSC") !== false )
     {
-        preg_match('!\d+!', $str, $matches);
+        preg_match('/\d+[L]*/', $str, $matches);
         $tag = "CSC " . $matches[0];
     }
 
