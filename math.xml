@@ -6,7 +6,7 @@
 
 <math_courses>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Basic Algebra</name>
     <preFix>MATH</preFix>
     <number>021</number>
@@ -22,7 +22,7 @@
    </notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Intermediate Algebra</name>
     <preFix>MATH</preFix>f
     <number>101</number>
@@ -39,7 +39,7 @@
    </notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>College Algebra</name>
     <preFix>MATH</preFix>
     <number>102</number>
@@ -56,7 +56,7 @@
    </notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>College Algebra Lab</name>
     <preFix>MATH</preFix>
     <number>102L</number>
@@ -69,7 +69,7 @@
     <coReq>MATH 102</coReq>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Survey of Computer Science and Mathematics</name>
     <preFix>MATH</preFix>
     <number>110</number>
@@ -85,7 +85,7 @@
    </notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Precalculus</name>
     <preFix>MATH</preFix>
     <number>115</number>
@@ -102,7 +102,7 @@
    </notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Trigonometry</name>
     <preFix>MATH</preFix>
     <number>120</number>
@@ -119,7 +119,7 @@
    </notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Calculus I</name>
     <preFix>MATH</preFix>
     <number>123</number>
@@ -137,7 +137,7 @@
    </notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Calculus II</name>
     <preFix>MATH</preFix>
     <number>125</number>
@@ -154,7 +154,7 @@
     <notes></notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Mining and Management Mathematics I</name>
     <preFix>MATH</preFix>
     <number>205</number>
@@ -171,7 +171,7 @@
    </notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Introduction to Discrete Mathematics</name>
     <preFix>MATH</preFix>
     <number>221</number>
@@ -186,7 +186,7 @@
     <notes></notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Calculus III</name>
     <preFix>MATH</preFix>
     <number>225</number>
@@ -200,7 +200,7 @@
     <notes></notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Introduction to Statistics</name>
     <preFix>MATH</preFix>
     <number>281</number>
@@ -217,7 +217,7 @@
    </notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Independent Study</name>
     <preFix>MATH</preFix>
     <number>291</number>
@@ -233,7 +233,7 @@
    </notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Topics</name>
     <preFix>MATH</preFix>
     <number>292</number>
@@ -249,7 +249,7 @@
    </notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Linear Algebra</name>
     <preFix>MATH</preFix>
     <number>315</number>
@@ -264,7 +264,7 @@
     <notes></notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Differential Equations</name>
     <preFix>MATH</preFix>
     <number>321</number>
@@ -278,7 +278,7 @@
     <notes> MATH 225 and MATH 321 may be taken concurrently or in either order.</notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Linear Optimization</name>
     <preFix>MATH</preFix>
     <number>353</number>
@@ -292,7 +292,7 @@
     <notes></notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Introduction to Numerical Analysis</name>
     <preFix>MATH</preFix>
     <number>373</number>
@@ -309,7 +309,7 @@
     <notes></notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Introduction to Probability and Statistics</name>
     <preFix>MATH</preFix>
     <number>381</number>
@@ -325,7 +325,7 @@
    </notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Probability Theory and Statistics II</name>
     <preFix>MATH</preFix>
     <number>382</number>
@@ -339,7 +339,7 @@
     <notes> This course</notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Independent Study</name>
     <preFix>MATH</preFix>
     <number>391</number>
@@ -355,7 +355,7 @@
    </notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Topics</name>
     <preFix>MATH</preFix>
     <number>392</number>
@@ -369,7 +369,7 @@
     <notes> May be repeated to a total of 6 credit hours.</notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Communicating Mathematics</name>
     <preFix>MATH</preFix>
     <number>402</number>
@@ -383,7 +383,7 @@
     <notes></notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Abstract Algebra</name>
     <preFix>MATH</preFix>
     <number>413</number>
@@ -400,7 +400,7 @@
     <notes></notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Complex Analysis</name>
     <preFix>MATH</preFix>
     <number>421</number>
@@ -414,7 +414,7 @@
     <notes></notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Advanced Calculus I</name>
     <preFix>MATH</preFix>
     <number>423</number>
@@ -432,7 +432,7 @@
     <notes></notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Advanced Calculus II</name>
     <preFix>MATH</preFix>
     <number>424</number>
@@ -446,7 +446,7 @@
     <notes></notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Partial Differential Equations</name>
     <preFix>MATH</preFix>
     <number>432</number>
@@ -461,7 +461,7 @@
     <notes></notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Data Analysis</name>
     <preFix>MATH</preFix>
     <number>443</number>
@@ -478,7 +478,7 @@
    </notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Data Analysis</name>
     <preFix>MATH</preFix>
     <number>543</number>
@@ -495,7 +495,7 @@
    </notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Design of Experiments</name>
     <preFix>MATH</preFix>
     <number>447</number>
@@ -509,7 +509,7 @@
     <notes> Students enrolled in MATH 547 will be held to a higher standard than those enrolled in MATH 447.</notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Design of Experiments</name>
     <preFix>MATH</preFix>
     <number>547</number>
@@ -523,7 +523,7 @@
     <notes> Students enrolled in MATH 547 will be held to a higher standard than those enrolled in MATH 447.</notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Math Modeling</name>
     <preFix>MATH</preFix>
     <number>451</number>
@@ -538,7 +538,7 @@
     <notes> Students enrolled in MATH 551 will be held to a higher standard than those enrolled in MATH 451.</notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Math Modeling</name>
     <preFix>MATH</preFix>
     <number>451</number>
@@ -553,7 +553,7 @@
     <notes> Students enrolled in MATH 551 will be held to a higher standard than those enrolled in MATH 451.</notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Advanced Studies in Mathematics</name>
     <preFix>MATH</preFix>
     <number>452</number>
@@ -569,7 +569,7 @@
     <notes> Students enrolled in MATH 552 will be help to a higher standard that those enrolled in MATH 452.</notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Advanced Studies in Mathematics</name>
     <preFix>MATH</preFix>
     <number>552</number>
@@ -585,7 +585,7 @@
     <notes> Students enrolled in MATH 552 will be help to a higher standard that those enrolled in MATH 452.</notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Numerical Analysis I</name>
     <preFix>MATH</preFix>
     <number>471</number>
@@ -600,7 +600,7 @@
     <notes></notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Statistical Quality and Process Control</name>
     <preFix>MATH</preFix>
     <number>486</number>
@@ -616,7 +616,7 @@
     <notes></notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Independent Study</name>
     <preFix>MATH</preFix>
     <number>491</number>
@@ -630,7 +630,7 @@
     <notes> May be repeated to a total of 3 credit hours.</notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Topics</name>
     <preFix>MATH</preFix>
     <number>492</number>
@@ -644,7 +644,7 @@
     <notes> May be reated to a total of 6 credit hours.</notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Undergraduate Research/Scholarship</name>
     <preFix>MATH</preFix>
     <number>498</number>
@@ -658,7 +658,7 @@
     <notes></notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Independent Study</name>
     <preFix>MATH</preFix>
     <number>691</number>
@@ -674,7 +674,7 @@
    </notes>
 </course>
 
-<course isActive = "True">
+<course isActive = "yes">
     <name>Topics</name>
     <preFix>MATH</preFix>
     <number>692</number>

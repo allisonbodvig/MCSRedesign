@@ -30,7 +30,7 @@ function readXML($filename)
 		$tmp = array();
 
 		//set each value of the array to data from xml
-        $tmp["active"] = (bool)$class->attributes()->isActive;
+        $tmp["active"] = (string)$class->attributes()->isActive;
 
 		$tmp["name"] = (string)$class->name;
 
@@ -285,22 +285,56 @@ function addCourse($course)
 
     $xml = simplexml_load_file($filename) or die ("Error: Cannot create object\n");
 
-    $file = fopen($filename, "w");
 
+    #$file = fopen($filename, "w");
+
+    
     $newChild = $xml->addChild('course');
-    $newChild->addAttribute('isActive', "yes");
-    $newChild->addChild('name', "Zachary class");
-    $newChild->addChild('preFix', "life101");
-    $newChild->addChild('number', "123");
-    $newChild->addChild('credits', "2");
-    $newChild->addChild('offered', "spring");
-    $newChild->addChild('description', "a fun class to learn everything");
-    $newChild->addChild('preReq', "yesterday");
-    $newChild->addChild('coReq', "nope");
-    $newChild->addChild('notes', "Awesome class. Instructor is amazing");
+    $newChild->addAttribute('isActive', $course["isActive"]);
+    $newChild->addChild('name', $course["name"]);
+    $newChild->addChild('preFix', $course["preFix"]);
+    $newChild->addChild('number', $course["number"]);
+    $newChild->addChild('credits', $course["credits"]);
+    $newChild->addChild('offered', $course["offered"]);
+    $newChild->addChild('description', $course["description"]);
+     
 
-    fwrite($file, $xml->asXML());
-    fclose($file);
+    
+    foreach($course['preReq'] as $preReq)
+    {
+        $newChild->addChild('preReq', $preReq);
+    }
+
+    foreach($course['coReq'] as $coReq)
+    {
+        $newChild->addChild('coReq', $coReq);
+    }
+     
+
+    $newChild->addChild('notes', $course["notes"]);
+
+    var_dump($xml);
+
+    #file_put_contents("csc.xml", $xml->asXML());
+    $xml->asXml('csc.xml');
+    
+    #fwrite($file, "blabadyblah");
+
+    $xml->saveXML($filename);
+
+    #fwrite($file, $xml->asXML());
+    #fclose($file);
+
+    
+    if($course["preFix"] == "CSC")
+    {
+        echo "<script>window.location = 'csc-courses.php'</script>";
+    }
+    else
+    {
+        echo "<script>window.location = 'math-courses.php'</script>";
+    }
+
 }
 
 

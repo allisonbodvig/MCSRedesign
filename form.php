@@ -10,12 +10,14 @@
     
     <fieldset>
     <legend>Class Information</legend>
+
+    <form method="post" action="savexml.php">
     
     <?php $values = $_POST['class']; ?>
     
     Show class to all users? 
-    <input type="radio" name="active" value="Yes" <?php if ( 1 == $values[0] ) { echo "checked"; } ?> > Yes
-    <input type="radio" name="active" value="No" <?php if ( 1 != $values[0] ) { echo "checked"; }?> > No
+    <input type="radio" name="active" value="Yes" <?php if ( !strcasecmp($values[0], "Yes" ) ) { echo "checked"; } ?> > Yes
+    <input type="radio" name="active" value="No" <?php if ( !strcasecmp($values[0], "No") ) { echo "checked"; }?> > No
     <br/>
     <span class="error" id="nameError"></span>
     <br/>
@@ -51,14 +53,19 @@
     <br><br>
     Prerequisites (Course Prefix, Course Number, Notes):
     <br><br>
-    <button onclick="addReq('req', 'pre')">Add</button>
-
-    <div id="req"> 
-
+    
     <?php
+    
+    $j = 0;
+
+    echo "<input type=\"button\" value=\"Add\" onclick=\"addReq('req', 'pre', " . $j++ .")\">";
+
+    echo "<div id=\"req\">";
+
+    
      include 'readXML.php';
      $reqs = $_POST['pre'];
-     
+
      foreach ($reqs as $item)
      {
         if (!empty ($item))
@@ -77,7 +84,7 @@
            }
 
            //select for preFix - automatically set to NONE
-           echo "<div><br><select name=\"pre\"> <option value=\"NONE\" selected>NONE</option> <option value=\"CSC\"";
+           echo "<div><br><select name=\"pre" . $j . "\"> <option value=\"NONE\" selected>NONE</option> <option value=\"CSC\"";
              
            if ( strpos($info[0], "CSC" ) !== false ) 
            { 
@@ -96,10 +103,13 @@
            echo ">MATH</option> </select> ";
             
             //echo class number
-           echo "<input type=\"text\" name=\"number\" onblur=\"validateCourseNumber(this, 'numberError')\" size=\"5\" value=\" ". $info[1] . "\" />" ;
+           echo "<input type=\"text\" name=\"prenumber". $j . "\" onblur=\"validateCourseNumber(this, 'numberError')\" size=\"5\" value=\" ". $info[1] . "\" />" ;
            
-           echo "<input type=\"text\" name=\"info\" size=\"45\" value=\"". $notes . "\" /> <button onclick=\"removeReq(this)\">Remove</button></div>" ;
-       }
+           echo "<input type=\"text\" name=\"preinfo". $j . "\" size=\"45\" value=\"". $notes . "\" /> <input type=\"button\" value=\"Remove\" onclick=\"removeReq(this)\"></div>" ;
+
+           $j = $j + 1;
+        
+        }
      }
     ?>
     </div>
@@ -107,15 +117,17 @@
     <br><br>
     Corequisites (Course PreFix, Course Number, Notes):
     <br/><br/>
+<?php
+
+    $i = 0;
+    echo "<input type=\"button\" value=\"Add\" onclick=\"addReq('Creq', 'co'," . $i++ . ")\">";
     
-    <button onclick="addReq('Creq', 'co')">Add</button>
+    echo "<div id=\"Creq\">";
     
-    <div id="Creq">
     
-    <?php
      //include 'readXML.php';
      $reqs = $_POST['co'];
-     
+
      //print_r ($reqs);
      
      foreach ($reqs as $item)
@@ -137,7 +149,7 @@
          }
 
        //select for preFix - automatically set to NONE
-        echo "<div><br><select name=\"co\"> <option value=\"NONE\" selected>NONE</option> <option value=\"CSC\"";
+        echo "<div><br><select name=\"co" . $i  ."\"> <option value=\"NONE\" selected>NONE</option> <option value=\"CSC\"";
          
          if ( strpos($info[0], "CSC" ) !== false ) 
          { 
@@ -156,11 +168,11 @@
          echo ">MATH</option> </select> ";
           
         //echo class number
-         echo "<input type=\"text\" name=\"number\" onblur=\"validateCourseNumber(this, 'numberError')\" size=\"5\" value=\" ". $info[1] . "\" />" ;
+         echo "<input type=\"text\" name=\"conumber" . $i  . "\" onblur=\"validateCourseNumber(this, 'numberError')\" size=\"5\" value=\" ". $info[1] . "\" />" ;
        
-         echo "<input type=\"text\" name=\"info\" size=\"45\" value=\"". $notes . "\" /> <button onclick=\"removeReq(this)\">Remove</button></div>" ;
+         echo "<input type=\"text\" name=\"coinfo" . $i . "\" size=\"45\" value=\"". $notes . "\" /> <input type=\"button\" value=\"Remove\" onclick=\"removeReq(this)\"></div>" ;
         
-        
+        $i = $i + 1;
        }
 
      } 
@@ -175,8 +187,10 @@
     </textarea>
     
     
+    <input type="submit" name="save" value="Save">
+    <input type="button" onclick="cancel()" value="Cancel">
     
-    
+    </form>
     </fieldset>
    
     </body>
